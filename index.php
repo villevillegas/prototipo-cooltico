@@ -11,6 +11,15 @@
         
     </head>
     <body>
+        <div id="wrapper">
+            <div id="header">MI ENCABEZADO</div>
+            <div id="main">contenido principal
+                <div id="slider">Donde va el slider</div>
+                <div id="categorias">aqui se meten las categorias</div>
+            </div>
+            <div id="footer"></div>
+            
+        </div>
         <?php
             echo 'HOLA SOY UN ECHO';
             echo 'PROBANDO SUBVERSION' ;
