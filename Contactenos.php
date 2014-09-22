@@ -122,7 +122,7 @@
                                 <div class="col-md-4 column">
                                      <h4>Ayuda</h4>
                                         <h5>Preguntas frecuentes</h5>
-                                     <h4>E-mail</h4>
+                                     <h4>Email</h4>
                                         <h5>compras@cooltico.com</h5>
 				</div>
                             
