@@ -75,7 +75,7 @@
 		<div class="col-md-12 column" id="centro">
                 
                     <h1>Espacio para sugerencias o preguntas</h1>
-                    <h2>Informacion de contacto</h2>
+                    <h2>Informacion de contacto</h2><h6>*Información obligatoria</h6>  
                     
                     <div id="info_contact">
                     <label for="nombre">Nombre:</label>
@@ -84,7 +84,7 @@
                     </div>
                     
                     <div id="info_contact">
-                    <label for="email">E-mail:</label>
+                    <label for="email">Email:</label>
                     <input type="text" name="email" size="50" value="" id="email" class="input">
                     <span class="required">*</span>
                     </div>
@@ -104,8 +104,9 @@
                     <div >
                         <input type="button" name="enviar"  value="Enviar" id="enviar" class="input">
                     </div>
-                    
+                  
 		</div>
+            
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
