@@ -13,5 +13,21 @@
     border-style:solid;
     border-color:#BDBDBD;
 	width: 1200px;
-	height: 400px;
+	height: 500px;
+}
+
+
+#header{
+width: 1200px;
+height: 200px;
+background-image:url(../images/coolLogo.png);
+background-repeat: no-repeat;
+}
+
+#info_contact{
+width: 1200px;
+height: 50px;
+}
+
+.form{
 }
