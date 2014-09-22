@@ -29,8 +29,13 @@
 		<div class="col-md-12 column">
                     <hr></hr>
                     <div class="row clearfix" style="background-color: #ffffff">
-				<div class="col-md-12 column">
-                                    <img alt="140x140" src="images/coolLogo.png" style="background-color: black">
+				<div class="col-md-12 column" id="header">
+                                    
+                                    <form>
+                                <input type="text" placeholder="Search..." required>
+                                <input type="button" value="Search">
+                                    </form>
+                                   
 				</div>
                         <hr></hr>
 			</div>
@@ -72,31 +77,31 @@
                     <h1>Espacio para sugerencias o preguntas</h1>
                     <h2>Informacion de contacto</h2>
                     
-                    <div class="info_contact">
+                    <div id="info_contact">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" maxlength="53" size="50" value="" id="nombre" class="input">
+                    <input type="text" name="nombre"  size="50" value="" id="nombre" class="input">
                     <span class="required">*</span>
                     </div>
                     
-                    <div class="info_contact">
+                    <div id="info_contact">
                     <label for="email">E-mail:</label>
-                    <input type="text" name="email" maxlength="53" size="50" value="" id="email" class="input">
+                    <input type="text" name="email" size="50" value="" id="email" class="input">
                     <span class="required">*</span>
                     </div>
                     
-                    <div class="info_contact">
+                    <div id="info_contact">
                     <label for="numero">Teléfono:</label>
-                    <input type="text" name="telefono" maxlength="53" size="50" value="" id="telefono" class="input">
+                    <input type="text" name="telefono"  size="50" value="" id="telefono" class="input">
                     </div>
                     
                    
-                    <div class="info_contact">
+                    <div id="info_contact">
                     <label for="comentarios">Comentarios:</label>
-                    <input type="text" name="comentarios" maxlength="53" size="50" value="" id="comentarios" class="input">
+                    <textarea name="comentarios" cols="60" rows="6" id="comentarios" class="input"></textarea>
                     <span class="required">*</span>
                     </div>
                     
-                    <div>
+                    <div >
                         <input type="button" name="enviar"  value="Enviar" id="enviar" class="input">
                     </div>
                     
