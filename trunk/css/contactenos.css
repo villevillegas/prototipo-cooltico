@@ -4,9 +4,14 @@
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(images/facebook.png)no-repeat;*/
+	/*background: url(images/facebook.png)no-repeat;*/
 	}
-	
-hr{
-	color: #ffffff;
+
+#centro	
+{
+    border-width: 1px;
+    border-style:solid;
+    border-color:#BDBDBD;
+	width: 1200px;
+	height: 400px;
 }
