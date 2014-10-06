@@ -20,46 +20,54 @@
         
         <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+        <link href="css/contactenos.css" rel="stylesheet">
         
     </head>
     <body>
         <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<div class="row clearfix" style="background-color: black">
-				<div class="col-md-12 column">
-                                    <img alt="140x140" src="" style="background-color: black">
-				</div>
-			</div>
+		
+                        <div class="row clearfix" style="background-color: #ffffff">
+                                <div class="col-md-12 column" id="header">
+                                    
+                                    <form id="busqueda">
+                                <input type="text" placeholder="Buscar..." required>
+                                <input type="button" value="Buscar">
+                                    </form>
+                                   
+                                </div>
+                        <hr></hr>
+                        </div>
 			<div class="row clearfix">
 				<div class="col-md-12 column">
-					<ul class="nav nav-tabs">
+					<ul class="nav nav-tabs ">
 						<li class="active">
 							<a href="#">Inicio</a>
 						</li>
 						<li>
-							<a href="#">Contacto</a>
+                                                    <a href="Contactenos.php">Contactenos</a>
 						</li>
-						<li class="active">
+<!--						<li class="active">
 							<a href="#">No se que mas</a>
-						</li>
+						</li>-->
 						<li class="dropdown pull-right">
-							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
+							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Action</a>
+									<a href="#">Iniciar Sesión</a>
 								</li>
 								<li>
-									<a href="#">Another action</a>
+                                                                    <a href="formularioRegistro.php">Registrarse</a>
 								</li>
-								<li>
+<!--								<li>
 									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
+								</li>-->
+<!--								<li class="divider">
 								</li>
 								<li>
 									<a href="#">Separated link</a>
-								</li>
+								</li>-->
 							</ul>
 						</li>
 					</ul>
@@ -115,40 +123,40 @@
 				</div> <a class="left carousel-control" href="#carousel-727762" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-727762" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 			</div>
 		</div>
-	</div>
+	</div><hr></hr>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
-			</div>
+			</div><hr></hr>
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
-			</div>
+			</div><hr></hr>
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 				<div class="col-md-4 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 			</div>
 		</div>
@@ -157,6 +165,7 @@
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-2 column">
+                                
 				</div>
 				<div class="col-md-6 column">
 				</div>
@@ -164,7 +173,40 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div><hr></hr>
+        <div class="row clearfix" style="background-color: black">
+	 <hr></hr>	
+            <div class="col-md-12 column" style="background-color: black">
+			
+                        <div class="row clearfix">
+                            
+                                <div class="col-md-4 column">
+                                    <h4>Compañia</h4>
+                                        <h5>Acerca de Nosotros</h5>
+                                        <h5>Terminos y Condiciones</h5>
+				</div>
+                            
+                                <div class="col-md-4 column">
+                                     <h4>Ayuda</h4>
+                                        <h5>Preguntas frecuentes</h5>
+                                     <h4>Email</h4>
+                                        <h5>compras@cooltico.com</h5>
+				</div>
+                            
+                              
+                              
+                            <div class="col-md-4 column buttons">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="buttons">
+                                    <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
+				
+                                    </div>
+                            </div>
+			</div>
+		</div>
+          <hr></hr>
+            
+            </div>
 </div>
     </body>
 </html>

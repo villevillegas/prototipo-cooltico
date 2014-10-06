@@ -23,7 +23,7 @@
 	<link href="css/style.css" rel="stylesheet">
         
         <link rel="stylesheet" type="text/css" href="css/formularioRegistro-style.css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/contactenos.css" />
     </head>
     <body>
        
@@ -32,39 +32,44 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix" style="background-color: black">
-				<div class="col-md-12 column">
-                                    <img alt="140x140" src="" style="background-color: black">
-				</div>
+				<div class="col-md-12 column img-responsive" id="header">
+                                    
+                                    <form id="busqueda">
+                                <input type="text" placeholder="Buscar..." required>
+                                <input type="button" value="Buscar">
+                                    </form>
+                                   
+                                </div>
 			</div>
 			<div class="row clearfix">
 				<div class="col-md-12 column">
 					<ul class="nav nav-tabs">
-						<li class="active">
+						<li>
 							<a href="#">Inicio</a>
 						</li>
 						<li>
 							<a href="#">Contacto</a>
 						</li>
 						<li class="active">
-							<a href="#">No se que mas</a>
+							<a href="#">Registro</a>
 						</li>
 						<li class="dropdown pull-right">
-							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Action</a>
+									<a href="#">Iniciar Sesión</a>
 								</li>
 								<li>
-									<a href="#">Another action</a>
+                                                                    <a href="formularioRegistro.php">Registrarse</a>
 								</li>
-								<li>
+<!--								<li>
 									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
+								</li>-->
+<!--								<li class="divider">
 								</li>
 								<li>
 									<a href="#">Separated link</a>
-								</li>
+								</li>-->
 							</ul>
 						</li>
 					</ul>
@@ -203,7 +208,7 @@
                     </table>
                 </div>
 
-                <div id="columnader">
+<!--                <div id="columnader">
                     <p>Intereses</p>
                     <table>
                         <tr>
@@ -245,12 +250,51 @@
                             <td colspan="2" style="text-align:center;height:50px;"><input class="boton" name="reset" type="reset" value="Limpiar" onClick="limpiar();"></td>
                         </tr>
                     </table>
-                </div>
+                </div>-->
             </div>
 	
 
         </form>
+            
         </div>
-        
+        <div class="row clearfix" style="background-color: black">
+	 <hr></hr>
+         <div class="col-md-12 column" style="background-color: black">
+             
+         </div>
+         </div>
+        <div class="row clearfix" style="background-color: black">
+	 <hr></hr>	
+            <div class="col-md-12 column" style="background-color: black">
+			
+                        <div class="row clearfix">
+                            
+                                <div class="col-md-4 column">
+                                    <h4>Compañia</h4>
+                                        <h5>Acerca de Nosotros</h5>
+                                        <h5>Terminos y Condiciones</h5>
+				</div>
+                            
+                                <div class="col-md-4 column">
+                                     <h4>Ayuda</h4>
+                                        <h5>Preguntas frecuentes</h5>
+                                     <h4>Email</h4>
+                                        <h5>compras@cooltico.com</h5>
+				</div>
+                            
+                              
+                              
+                            <div class="col-md-4 column buttons">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="buttons">
+                                    <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
+				
+                                    </div>
+                            </div>
+			</div>
+		</div>
+          <hr></hr>
+            
+            </div>
     </body>
 </html>
