@@ -12,68 +12,73 @@
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
         
         <script type="text/javascript" src="js/library/jquery.min.js"></script>
-	<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/library/scripts.js"></script>
         
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <!--script src="/js/inicio.js"></script-->
         
         <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/contactenos.css" rel="stylesheet">
+        <link href="css/contactenos.css" rel="stylesheet">
         
     </head>
     <body>
         <div style="background-color: black">
         <div class="container"  style="background-color: #ffffff" >
-	<div class="row clearfix">
+        <div class="row clearfix">
        
-		<div class="col-md-12 column">
+                <div class="col-md-12 column">
                     
                     <div class="row clearfix" style="background-color: #ffffff">
-				<div class="col-md-12 column" id="header">
+                                <div class="col-md-12 column img-responsive" id="header">
                                     
                                     <form id="busqueda">
                                 <input type="text" placeholder="Buscar..." required>
                                 <input type="button" value="Buscar">
                                     </form>
                                    
-				</div>
+                                </div>
                         <hr></hr>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<ul class="nav nav-tabs">
-						<li>
-							<a href="#">Inicio</a>
-						</li>
-						<li class="active">
-							<a href="#">Contactenos</a>
-						</li>
+                        </div>
+                       <div class="row clearfix">
+                                <div class="col-md-12 column">
+                                        <ul class="nav nav-tabs">
                                                 <li>
-							<a href="#">Productos</a>
-						</li>
+                                                    <a href="index.php">Inicio</a>
+                                                </li>
+                                                 <li class="active">
+                                                        <a href="#">Contactenos</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#">Productos</a>
+                                                </li>
                                              
-						<li class="dropdown pull-right">
-							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Opciones<strong class="caret"></strong></a>
+                                                <li class="dropdown pull-right">
+                                                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Ingresar</a>
-								</li>
-				
-								<li class="divider">
+									<a href="#">Iniciar Sesión</a>
 								</li>
 								<li>
-									<a href="#">Salir</a>
+                                                                    <a href="formularioRegistro.php">Registrarse</a>
 								</li>
+<!--								<li>
+									<a href="#">Something else here</a>
+								</li>-->
+<!--								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>-->
 							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column" id="centro">
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="row clearfix">
+                <div class="col-md-12 column" id="centro">
                 
                     <h1>Espacio para sugerencias o preguntas</h1>
                     <h2>Informacion de contacto</h2><h6>*Información obligatoria</h6>  
@@ -106,29 +111,29 @@
                         <input type="button" name="enviar"  value="Enviar" id="enviar" class="input">
                     </div>
                   
-		</div>
+                </div>
             
-	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			
-			
-		</div>
-	</div>
-	<div class="row clearfix" style="background-color: black">
-	 <hr></hr>	
+        </div>
+        <div class="row clearfix">
+                <div class="col-md-12 column">
+                        
+                        
+                </div>
+        </div>
+        <div class="row clearfix" style="background-color: black">
+         <hr></hr>      
             <div class="col-md-12 column" style="background-color: black">
-			
+                        
                         <div class="row clearfix">
                             
                                 <div class="col-md-4 column">
                                     <h4>Compañia</h4>
-                                    <h5><a href="#">Acerca de Nosotros</a></h5>
+                                    <h5><a href="AcercaNosotros.php">Acerca de Nosotros</a></h5>
                                     <h5><a href="#">Terminos y Condiciones</a></h5>
                                     <h4>Ayuda</h4>
                                     <h5><a href="#">Preguntas frecuentes</a></h5>
                                    
-				</div>
+                                </div>
                             
                                 <div class="col-md-4 column">
                                      <h4>Teléfono</h4>
@@ -137,7 +142,7 @@
                                      <h4>Email</h4>
                                         <h5>compras@cooltico.com</h5>
                                      
-				</div>
+                                </div>
                             
                               
                               
@@ -145,11 +150,11 @@
                                     <h4>Redes Sociales</h4>
                                     <div class="buttons">
                                     <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
-				
+                                
                                     </div>
                             </div>
-			</div>
-		</div>
+                        </div>
+                </div>
           <hr></hr>
             
             </div>

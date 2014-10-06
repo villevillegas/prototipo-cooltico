@@ -1,13 +1,12 @@
-
- #busqueda{ margin-left: 900px;
-			}
+#busqueda{ margin-left: 900px;
+                        }
  #nombre{ margin-left: 38px; }
  #email { margin-left: 52px; }
  #telefono{ margin-left: 32px; }
  #comentarios { margin-left: 10px; }
 
 .buttons { margin-top: 14px; }
-	
+        
 .buttons a {
 
 
@@ -21,20 +20,20 @@
     background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea);
     background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
     background-image: linear-gradient(top, #f6f6f6, #eaeaea);
-	-moz-border-radius: 32px;
+        -moz-border-radius: 32px;
     -webkit-border-radius: 32px;
     border-radius: 32px;
    
 }
 
 .facebook img {
-	width: 60px;
+        width: 60px;
     height: 60px;
-	display: inline-block;
+        display: inline-block;
     position: relative;
 }
-	
-#centro	
+        
+#centro 
 {
     padding: 15px 15px;
     border: 2px solid #fff;
@@ -46,8 +45,8 @@
                 0 0 1px 0 rgba(0, 0, 0, .2),
                 0 2px 2px rgba(0, 0, 0, .3),
                 0 10px 10px -5px rgba(0, 0, 0, .2);
-	width: 1168px;
-	height: 500px;
+        width: 1168px;
+        height: 500px;
 }
 
 #centro
@@ -62,8 +61,8 @@
                 0 0 1px 0 rgba(0, 0, 0, .2),
                 0 2px 2px rgba(0, 0, 0, .3),
                 0 10px 10px -5px rgba(0, 0, 0, .2);
-	width: 1168px;
-	height: 500px;
+        width: 1168px;
+        height: 500px;
 }
 
 #header{
