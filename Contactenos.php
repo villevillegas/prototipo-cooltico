@@ -43,10 +43,10 @@
 			<div class="row clearfix">
 				<div class="col-md-12 column">
 					<ul class="nav nav-tabs">
-						<li class="active">
+						<li>
 							<a href="#">Inicio</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="#">Contactenos</a>
 						</li>
                                                 <li>
