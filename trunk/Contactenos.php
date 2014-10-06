@@ -23,11 +23,12 @@
         
     </head>
     <body>
-        <div class="container">
+        <div style="background-color: black">
+        <div class="container"  style="background-color: #ffffff" >
 	<div class="row clearfix">
-            
+            <hr></hr>
 		<div class="col-md-12 column">
-                    <hr></hr>
+                    
                     <div class="row clearfix" style="background-color: #ffffff">
 				<div class="col-md-12 column" id="header">
                                     
@@ -114,9 +115,10 @@
 			
 		</div>
 	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<hr></hr>
+	<div class="row clearfix" style="background-color: black">
+	 <hr></hr>	
+            <div class="col-md-12 column" style="background-color: black">
+			
                         <div class="row clearfix">
                             
                                 <div class="col-md-4 column">
@@ -134,14 +136,21 @@
                             
                               
                               
-                            <div class="col-md-4 column" >
+                            <div class="col-md-4 column buttons">
                                     <h4>Redes Sociales</h4>
-                                    <img id="circular" alt="40x40" src="images/facebook.png" style="background-color: black">
-				</div>
+                                    <div class="buttons">
+                                    <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
+				
+                                    </div>
+                            </div>
 			</div>
 		</div>
-            <hr></hr>
-	</div>
+          <hr></hr>
+            
+            </div>
+        </div>
 </div>
+            
+      
     </body>
 </html>
