@@ -2,9 +2,9 @@
 .buttons { margin-top: 10px; }
 	
 .buttons a {
-    margin-right: 30px;
-    width: 64px;
-    height: 64px;
+
+    width: 60px;
+    height: 60px;
     display: inline-block;
     position: relative;
     line-height: 64px;
@@ -24,7 +24,9 @@
 }
 
 .facebook img {
-    vertical-align: -12px;
+    position: relative;
+	width: 70px;
+    height: 70px;
 }
 	
 #centro	
@@ -45,7 +47,7 @@
 
 
 #header{
-width: 1200px;
+width: 1150px;
 height: 200px;
 background-image:url(../images/coolLogo.png);
 background-repeat: no-repeat;
