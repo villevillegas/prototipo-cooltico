@@ -26,15 +26,15 @@
         <div style="background-color: black">
         <div class="container"  style="background-color: #ffffff" >
 	<div class="row clearfix">
-            <hr></hr>
+       
 		<div class="col-md-12 column">
                     
                     <div class="row clearfix" style="background-color: #ffffff">
 				<div class="col-md-12 column" id="header">
                                     
-                                    <form>
-                                <input type="text" placeholder="Search..." required>
-                                <input type="button" value="Search">
+                                    <form id="busqueda">
+                                <input type="text" placeholder="Buscar..." required>
+                                <input type="button" value="Buscar">
                                     </form>
                                    
 				</div>
@@ -123,15 +123,20 @@
                             
                                 <div class="col-md-4 column">
                                     <h4>Compañia</h4>
-                                        <h5>Acerca de Nosotros</h5>
-                                        <h5>Terminos y Condiciones</h5>
+                                    <h5><a href="#">Acerca de Nosotros</a></h5>
+                                    <h5><a href="#">Terminos y Condiciones</a></h5>
+                                    <h4>Ayuda</h4>
+                                    <h5><a href="#">Preguntas frecuentes</a></h5>
+                                   
 				</div>
                             
                                 <div class="col-md-4 column">
-                                     <h4>Ayuda</h4>
-                                        <h5>Preguntas frecuentes</h5>
+                                     <h4>Teléfono</h4>
+                                        <h5>7257-1374</h5>
+                                    
                                      <h4>Email</h4>
                                         <h5>compras@cooltico.com</h5>
+                                     
 				</div>
                             
                               

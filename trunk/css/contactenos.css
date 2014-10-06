@@ -10,11 +10,10 @@
 	
 .buttons a {
 
-    width: 60px;
-    height: 60px;
+
     display: inline-block;
     position: relative;
-    line-height: 64px;
+    line-height: 20px;
     background-color: #eaeaea;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
     background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
@@ -22,25 +21,24 @@
     background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea);
     background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
     background-image: linear-gradient(top, #f6f6f6, #eaeaea);
-    -moz-border-radius: 32px;
+	-moz-border-radius: 32px;
     -webkit-border-radius: 32px;
     border-radius: 32px;
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+   
 }
 
 .facebook img {
+	width: 60px;
+    height: 60px;
+	display: inline-block;
     position: relative;
-	width: 70px;
-    height: 70px;
 }
 	
 #centro	
 {
     padding: 15px 15px;
     border: 2px solid #fff;
-    color: #999;
+    color: #1A437F;
     background-color: #eaeaea;
     background-image: linear-gradient(top, #eaeaea, #fff);
     border-radius: 3px;
