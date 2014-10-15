@@ -44,13 +44,13 @@
 				<div class="col-md-12 column">
 					<ul class="nav nav-tabs">
 						<li>
-							<a href="#">Inicio</a>
+							<a href="index.php">Inicio</a>
 						</li>
                                                 <li>
-							<a href="#">Contactenos</a>
+                                                    <a href="Contactenos.php">Contactenos</a>
 						</li>
                                                 <li>
-							<a href="#">Productos</a>
+                                                    <a href="producto.php">Productos</a>
 						</li>
                                              
 						<li class="dropdown pull-right">
