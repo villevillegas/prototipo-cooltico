@@ -47,11 +47,9 @@
                                                     <a href="index.php">Inicio</a>
                                                 </li>
                                                  <li class="active">
-                                                        <a href="#">Contactenos</a>
+                                                        <a href="#">Contáctenos</a>
                                                 </li>
-                                                <li>
-                                                        <a href="#">Productos</a>
-                                                </li>
+                                    
                                              
                                                 <li class="dropdown pull-right">
                                                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
@@ -62,14 +60,7 @@
 								<li>
                                                                     <a href="formularioRegistro.php">Registrarse</a>
 								</li>
-<!--								<li>
-									<a href="#">Something else here</a>
-								</li>-->
-<!--								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>-->
+							
 							</ul>
                                                 </li>
                                         </ul>
@@ -81,7 +72,7 @@
                 <div class="col-md-12 column" id="centro">
                 
                     <h1>Espacio para sugerencias o preguntas</h1>
-                    <h2>Informacion de contacto</h2><h6>*Información obligatoria</h6>  
+                    <h2>Informacion de contacto</h2><h6 class="required">*Información obligatoria</h6>  
                     
                     <div id="info_contact">
                     <label for="nombre">Nombre:</label>
@@ -103,7 +94,7 @@
                    
                     <div id="info_contact">
                     <label for="comentarios">Comentarios:</label>
-                    <textarea name="comentarios" cols="60" rows="6" id="comentarios" class="input"></textarea>
+                    <textarea name="comentarios" cols="52" rows="8" id="comentarios" class="input"></textarea>
                     <span class="required">*</span>
                     </div>
                     

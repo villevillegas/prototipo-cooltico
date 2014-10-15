@@ -1,9 +1,14 @@
 #busqueda{ margin-left: 900px;
                         }
- #nombre{ margin-left: 38px; }
- #email { margin-left: 52px; }
- #telefono{ margin-left: 32px; }
+ #nombre{ margin-left: 41px; }
+ #email { margin-left: 57px; }
+ #telefono{ margin-left: 37px; }
  #comentarios { margin-left: 10px; }
+ #enviar { 
+ margin-left: 600px;
+ width: 100px;
+ height: 50px;
+ }
 
 .buttons { margin-top: 14px; }
         
@@ -88,4 +93,23 @@ color: white;
 
 h5 a{
 color: white;
+}
+
+.required{
+color: red;
+}
+
+.ventana_flotante {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    bottom: 50px;
+    left: auto;
+    margin-left: -100px;
+    padding: 10px 0 0;
+    position: fixed;
+    text-align: center;
+    width: 90px;
+    z-index: 15;
+	opacity: 0.5;
 }
