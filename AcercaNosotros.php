@@ -47,7 +47,7 @@
 							<a href="index.php">Inicio</a>
 						</li>
                                                 <li>
-                                                    <a href="Contactenos.php">Contactenos</a>
+                                                    <a href="Contactenos.php">Contáctenos</a>
 						</li>
                                                 <li>
                                                     <a href="producto.php">Productos</a>
