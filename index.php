@@ -46,7 +46,7 @@
 							<a href="#">Inicio</a>
 						</li>
 						<li>
-                                                    <a href="Contactenos.php">Contactenos</a>
+                                                    <a href="Contactenos.php">Contáctenos</a>
 						</li>
 <!--						<li class="active">
 							<a href="#">No se que mas</a>
