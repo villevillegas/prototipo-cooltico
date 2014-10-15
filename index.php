@@ -31,10 +31,7 @@
                         <div class="row clearfix" style="background-color: #ffffff">
                                 <div class="col-md-12 column" id="header">
                                     
-                                    <form id="busqueda">
-                                <input type="text" placeholder="Buscar..." required>
-                                <input type="button" value="Buscar">
-                                    </form>
+                                  
                                    
                                 </div>
                         <hr></hr>
@@ -51,6 +48,12 @@
 <!--						<li class="active">
 							<a href="#">No se que mas</a>
 						</li>-->
+                                                 <form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> <button type="submit" class="btn btn-default">Buscar</button>
+					</form>
+
 						<li class="dropdown pull-right">
 							
 							<ul class="nav nav-tabs">
@@ -143,25 +146,34 @@
 			<div class="row clearfix">
 				<div class="col-md-4 column">
                                     <a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <h3>Joyería</h3>
 				</div>
 				<div class="col-md-4 column">
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
-				</div>
+                                    <h3>Productos Electrónicos</h3>
+                                </div>
 				<div class="col-md-4 column">
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
-				</div>
+                                     <h3>Para el Hogar</h3>
+                                </div>
 			</div><hr></hr>
 			<div class="row clearfix">
 				<div class="col-md-4 column">
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
-				</div>
+                                    <h3>Ropa</h3>
+                                </div>
 				<div class="col-md-4 column">
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
-				</div>
+                                     <h3>Anteojos</h3>
+                                </div>
 				<div class="col-md-4 column">
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
-				</div>
-			</div><hr></hr>
+                                     <h3>Otros</h3>
+                                </div>
+			</div>
+                         <!--
+                        <hr></hr>
+                        
 			<div class="row clearfix">
 				<div class="col-md-4 column">
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
@@ -173,6 +185,7 @@
 					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
 				</div>
 			</div>
+                        -->
 		</div>
 	</div>
 	<div class="row clearfix">
