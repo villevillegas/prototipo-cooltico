@@ -257,13 +257,9 @@
         </form>
             
         </div>
+        
         <div class="row clearfix" style="background-color: black">
-         <div class="col-md-12 column" style="background-color: black">
-             
-         </div>
-         </div>
-        <div class="row clearfix" style="background-color: black">
-	 <hr></hr>	
+         <hr></hr>      
             <div class="col-md-12 column" style="background-color: black">
                         
                         <div class="row clearfix">
