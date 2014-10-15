@@ -84,11 +84,13 @@
                     <label for="email">Email:</label>
                     <input type="text" name="email" size="50" value="" id="email" class="input">
                     <span class="required">*</span>
+                    (cuenta@dominio.com)
                     </div>
                     
                     <div id="info_contact">
                     <label for="numero">Teléfono:</label>
                     <input type="text" name="telefono"  size="50" value="" id="telefono" class="input">
+                    (7257-1374)
                     </div>
                     
                    

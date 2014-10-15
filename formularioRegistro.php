@@ -187,23 +187,24 @@
                         <tr>
                             <td><label>Correo electr&oacutenico</label></td>
                             <td><input name="sesion" type="text"></td>
-                            <td style="background-color:#CCCCCC">(p. ej., cuenta@dominio)</td>
+                            <td style="background-color:#CCCCCC">(cuenta@dominio)</td>
                         </tr>
                         <tr>
                             <td><label>Contrase&ntilde;a</label></td>
                             <td><input name="pass" type="password"></td>
                             <td style="background-color:#CCCCCC">
-                                Debe tener <strong>al menos ocho (8) caracteres de longitud</strong>,<br>
-                                puede contener n&uacute;meros (0-9) y letras may&uacute;sculas y<br>
+                                La contraseña debe tener <strong>al menos ocho (8) caracteres de longitud</strong>,<br>
+                                Puede contener n&uacute;meros (0-9) y letras may&uacute;sculas y<br>
                                 min&uacute;sculas (A-Z, a-z), pero no puede incluir <strong>ning&uacute;n<br>
-                                espacio</strong>. Aseg&uacute;rese de que sea dif&iacute;cil que otros la<br>
-                                adivinen.
+                                espacio</strong>.
                             </td>
                         </tr>
                         <tr>
                             <td><label>Confirmaci&oacute;n contrase&ntilde;a</label></td>
                             <td><input name="repass" type="password"></td>
-                            <td style="background-color:#CCCCCC">Confirme su Contrase&ntilde;a</td>
+                            <td style="background-color:#CCCCCC">Digíte de nuevo la contrase&ntilde;a para verificar 
+                                                                 que sea la correcta
+                            </td>
                         </tr>
                     </table>
                 </div>
