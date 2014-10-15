@@ -105,11 +105,14 @@ color: red;
     border-radius: 6px 6px 6px 6px;
     bottom: 50px;
     left: auto;
-    margin-left: -100px;
+    margin-left: -10px;
     padding: 10px 0 0;
     position: fixed;
     text-align: center;
     width: 90px;
     z-index: 15;
-	opacity: 0.5;
+	opacity: 0.9;
+	 width: 200px;
+    height: 100px;
 }
+

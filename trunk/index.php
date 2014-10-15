@@ -63,8 +63,13 @@
                                                                 
                                                                 <div class="ventana_flotante">
                                                    
-                    <label for="correo">correo:</label>
-                    <input type="text" name="correologin"  size="15" value="" id="correologin" class="input">
+                    <label for="correo" >Correo:</label>
+                    <input type="text" name="correoLogin"  size="15" value="" id="correoLogin" class="input">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input">
+                    <div >
+                        <input type="button" name="login"  value="Entrar" id="login" class="input">
+                    </div>
                                                                         </div>
 <!--								<li>
 									<a href="#">Something else here</a>
