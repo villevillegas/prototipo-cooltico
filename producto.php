@@ -14,6 +14,7 @@
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/contactenos.css" />
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -434,6 +435,44 @@
 		<div class="col-md-12 column">
 		</div>
 	</div>
+    <div class="row clearfix" style="background-color: black">
+         <hr></hr>      
+            <div class="col-md-12 column" style="background-color: black">
+                        
+                        <div class="row clearfix">
+                            
+                                <div class="col-md-4 column">
+                                    <h4>Compañia</h4>
+                                    <h5><a href="AcercaNosotros.php">Acerca de Nosotros</a></h5>
+                                    <h5><a href="#">Terminos y Condiciones</a></h5>
+                                    <h4>Ayuda</h4>
+                                    <h5><a href="#">Preguntas frecuentes</a></h5>
+                                   
+                                </div>
+                            
+                                <div class="col-md-4 column">
+                                     <h4>Teléfono</h4>
+                                        <h5>7257-1374</h5>
+                                    
+                                     <h4>Email</h4>
+                                        <h5>compras@cooltico.com</h5>
+                                     
+                                </div>
+                            
+                              
+                              
+                            <div class="col-md-4 column buttons">
+                                    <h4>Redes Sociales</h4>
+                                    <div class="buttons">
+                                    <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
+                                
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+          <hr></hr>
+            
+            </div>
 </div>
 </body>
 </html>

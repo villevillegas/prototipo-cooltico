@@ -49,9 +49,7 @@
                                                 <li>
                                                     <a href="Contactenos.php">Contáctenos</a>
 						</li>
-                                                <li>
-                                                    <a href="producto.php">Productos</a>
-						</li>
+                                            
                                              
 						<li class="dropdown pull-right">
 							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Opciones<strong class="caret"></strong></a>
