@@ -52,14 +52,12 @@
 							<a href="#">No se que mas</a>
 						</li>-->
 						<li class="dropdown pull-right">
-							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
+							
+							<ul class="nav nav-tabs">
 								<li>
-									<a href="#">Iniciar Sesión</a>    
+									<a href="#">Iniciar sesión/Registrarse</a>    
 								</li>
-								<li>
-                                                                    <a href="formularioRegistro.php">Registrarse</a>
-								</li>
+								
                                                                 
                                                                 <div class="ventana_flotante">
                                                    
@@ -69,6 +67,11 @@
                     <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input">
                     <div >
                         <input type="button" name="login"  value="Entrar" id="login" class="input">
+                    </div>
+                    <div >
+                        <hr/>
+                        ó
+                        <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input">
                     </div>
                                                                         </div>
 <!--								<li>

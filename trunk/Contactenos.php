@@ -90,7 +90,7 @@
                     <div id="info_contact">
                     <label for="numero">Teléfono:</label>
                     <input type="text" name="telefono"  size="50" value="" id="telefono" class="input">
-                    (7257-1374)
+                    (# # # # - # # # #)
                     </div>
                     
                    
