@@ -55,11 +55,17 @@
 							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Iniciar Sesión</a>
+									<a href="#">Iniciar Sesión</a>    
 								</li>
 								<li>
                                                                     <a href="formularioRegistro.php">Registrarse</a>
 								</li>
+                                                                
+                                                                <div class="ventana_flotante">
+                                                   
+                    <label for="correo">correo:</label>
+                    <input type="text" name="correologin"  size="15" value="" id="correologin" class="input">
+                                                                        </div>
 <!--								<li>
 									<a href="#">Something else here</a>
 								</li>-->
@@ -177,21 +183,26 @@
         <div class="row clearfix" style="background-color: black">
 	 <hr></hr>	
             <div class="col-md-12 column" style="background-color: black">
-			
+                        
                         <div class="row clearfix">
                             
                                 <div class="col-md-4 column">
                                     <h4>Compañia</h4>
-                                        <h5>Acerca de Nosotros</h5>
-                                        <h5>Terminos y Condiciones</h5>
-				</div>
+                                    <h5><a href="AcercaNosotros.php">Acerca de Nosotros</a></h5>
+                                    <h5><a href="#">Terminos y Condiciones</a></h5>
+                                    <h4>Ayuda</h4>
+                                    <h5><a href="#">Preguntas frecuentes</a></h5>
+                                   
+                                </div>
                             
                                 <div class="col-md-4 column">
-                                     <h4>Ayuda</h4>
-                                        <h5>Preguntas frecuentes</h5>
+                                     <h4>Teléfono</h4>
+                                        <h5>7257-1374</h5>
+                                    
                                      <h4>Email</h4>
                                         <h5>compras@cooltico.com</h5>
-				</div>
+                                     
+                                </div>
                             
                               
                               
@@ -199,11 +210,11 @@
                                     <h4>Redes Sociales</h4>
                                     <div class="buttons">
                                     <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
-				
+                                
                                     </div>
                             </div>
-			</div>
-		</div>
+                        </div>
+                </div>
           <hr></hr>
             
             </div>

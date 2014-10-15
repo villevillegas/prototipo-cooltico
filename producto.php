@@ -44,9 +44,48 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<h3>
-				cooltico
-			</h3>
+                    
+                    <div class="row clearfix">
+				<div class="col-md-12 column">
+					<ul class="nav nav-tabs ">
+						<li >
+                                                    <a href="index.php">Inicio</a>
+						</li>
+						<li>
+                                                    <a href="Contactenos.php">Contáctenos</a>
+						</li>
+<!--						<li class="active">
+							<a href="#">No se que mas</a>
+						</li>-->
+						<li class="dropdown pull-right">
+							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Iniciar Sesión</a>    
+								</li>
+								<li>
+                                                                    <a href="formularioRegistro.php">Registrarse</a>
+								</li>
+                                                                
+                                                                <div class="ventana_flotante">
+                                                   
+                    <label for="correo">correo:</label>
+                    <input type="text" name="correologin"  size="15" value="" id="correologin" class="input">
+                                                                        </div>
+<!--								<li>
+									<a href="#">Something else here</a>
+								</li>-->
+<!--								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>-->
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
 			 <a id="modal-85591" href="#modal-container-85596" role="button" class="btn" data-toggle="modal">ejemplo1</a>
                          <a id="modal-85592" href="#modal-container-85596" role="button" class="btn" data-toggle="modal">ejemplo2</a>
                          <a id="modal-85593" href="#modal-container-85596" role="button" class="btn" data-toggle="modal">ejemplo3</a>
@@ -71,49 +110,50 @@
 					</div>
 				</div>	
 			</div>
+                        
 			
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
 					<ul class="nav navbar-nav">
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Department<strong class="caret"></strong></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Artículos<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Home</a>
+									<a href="#">Accesorios celular</a>
+								</li>
+                                                                <li>
+									<a href="#">Accesorios computadora</a>
+								</li>
+                                                                <li>
+									<a href="#">Accesorios Tablets</a>
 								</li>
 								<li>
-									<a href="#">Tool</a>
+									<a href="#">Ropa</a>
 								</li>
 								<li>
-									<a href="#">Garden</a>
+									<a href="#">Joyería</a>
 								</li>
+                                                                <li>
+									<a href="#">Relojes</a>
+								</li>
+                                                                <li>
+									<a href="#">Artículos del hogar</a>
+								</li>
+                                                            
+                                                                <li>
+									<a href="#">Anteojos de Sol</a>
+								</li>
+                                                               
 								<li class="divider">
 								</li>
 								<li>
-									<a href="#">Electronics</a>
+									<a href="#">Otros</a>
 								</li>
-                                                                <li>
-									<a href="#">Computers</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Toys</a>
-								</li>
-                                                                <li>
-									<a href="#">kids</a>
-								</li>
-                                                                <li class="divider">
-								</li>
-                                                                <li>
-									<a href="#">Clothing</a>
-								</li>
+                                                                
 							</ul>
 						</li>
                                                 
-                                                <li>
-							<a href="#">Search</a>
-						</li>
+                                              
 					</ul>
 				</div>
 				
@@ -122,19 +162,11 @@
                                         <form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control">
-						</div> <button type="submit" class="btn btn-default">Enter</button>
+						</div> <button type="submit" class="btn btn-default">Buscar</button>
 					</form>
                                     
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">...</a>
-								</li>
-							
-							</ul>
-						</li>
+						
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">cart<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
@@ -183,8 +215,7 @@
                         
 			<p align="center">
                             
-				$379.00	
-                                FREE Shipping Details
+				Precio &cent;
                                
 			</p>
 		</div>
