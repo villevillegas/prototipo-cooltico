@@ -45,10 +45,10 @@
 				<div class="col-md-12 column">
 					<ul class="nav nav-tabs">
 						<li>
-							<a href="#">Inicio</a>
+                                                    <a href="index.php">Inicio</a>
 						</li>
 						<li>
-							<a href="#">Contacto</a>
+                                                    <a href="Contactenos.php">Contáctenos</a>
 						</li>
 						<li class="active">
 							<a href="#">Registro</a>
@@ -119,7 +119,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><label>Cumplea&ntilde;os</label></td>
+                            <td><label>Fecha de nacimiento</label></td>
                             <td>
                                 <select name="dia">
                                     <option value="0" selected="selected">D&iacute;a</option>
@@ -185,7 +185,7 @@
                     <p>Informaci&oacute;n de la cuenta</p>
                     <table>
                         <tr>
-                            <td><label>Nombre de inicio de sesi&oacute;n</label></td>
+                            <td><label>Correo electr&oacutenico</label></td>
                             <td><input name="sesion" type="text"></td>
                             <td style="background-color:#CCCCCC">(p. ej., cuenta@dominio)</td>
                         </tr>
@@ -258,7 +258,6 @@
             
         </div>
         <div class="row clearfix" style="background-color: black">
-	 <hr></hr>
          <div class="col-md-12 column" style="background-color: black">
              
          </div>
