@@ -86,7 +86,7 @@
 					</ul>
 				</div>
 			</div>
-			
+			<!--
 			 <a id="modal-85591" href="#modal-container-85596" role="button" class="btn" data-toggle="modal">ejemplo1</a>
                          <a id="modal-85592" href="#modal-container-85596" role="button" class="btn" data-toggle="modal">ejemplo2</a>
                          <a id="modal-85593" href="#modal-container-85596" role="button" class="btn" data-toggle="modal">ejemplo3</a>
@@ -111,7 +111,7 @@
 					</div>
 				</div>	
 			</div>
-                        
+                        -->
 			
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">

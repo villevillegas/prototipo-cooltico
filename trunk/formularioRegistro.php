@@ -33,11 +33,7 @@
 		<div class="col-md-12 column">
 			<div class="row clearfix" style="background-color: black">
 				<div class="col-md-12 column img-responsive" id="header">
-                                    
-                                    <form id="busqueda">
-                                <input type="text" placeholder="Buscar..." required>
-                                <input type="button" value="Buscar">
-                                    </form>
+                           
                                    
                                 </div>
 			</div>
@@ -53,6 +49,13 @@
 						<li class="active">
 							<a href="#">Registro</a>
 						</li>
+                                                
+                                                <form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> <button type="submit" class="btn btn-default">Buscar</button>
+					</form>
+                                                
 						<li class="dropdown pull-right">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">

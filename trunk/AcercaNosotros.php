@@ -32,10 +32,7 @@
                     <div class="row clearfix" style="background-color: #ffffff">
 				<div class="col-md-12 column" id="header">
                                     
-                                    <form id="busqueda">
-                                <input type="text" placeholder="Buscar..." required>
-                                <input type="button" value="Buscar">
-                                    </form>
+                              
                                    
 				</div>
                         <hr></hr>
@@ -49,7 +46,12 @@
                                                 <li>
                                                     <a href="Contactenos.php">Contáctenos</a>
 						</li>
-                                            
+                                                
+                                                <form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> <button type="submit" class="btn btn-default">Buscar</button>
+					</form>
                                              
 						<li class="dropdown pull-right">
 							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Opciones<strong class="caret"></strong></a>

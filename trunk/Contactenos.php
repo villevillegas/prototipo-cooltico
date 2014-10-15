@@ -31,12 +31,13 @@
                     
                     <div class="row clearfix" style="background-color: #ffffff">
                                 <div class="col-md-12 column img-responsive" id="header">
-                                    
+                                  
+                                   <!-- 
                                     <form id="busqueda">
                                 <input type="text" placeholder="Buscar..." required>
                                 <input type="button" value="Buscar">
                                     </form>
-                                   
+                                   -->
                                 </div>
                         <hr></hr>
                         </div>
@@ -49,7 +50,12 @@
                                                  <li class="active">
                                                         <a href="#">Contáctenos</a>
                                                 </li>
-                                    
+                                                
+                                                <form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> <button type="submit" class="btn btn-default">Buscar</button>
+					</form>
                                              
                                                 <li class="dropdown pull-right">
                                                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
@@ -72,7 +78,7 @@
                 <div class="col-md-12 column" id="centro">
                 
                     <h1>Espacio para sugerencias o preguntas</h1>
-                    <h2>Informacion de contacto</h2><h6 class="required">*Información obligatoria</h6>  
+                    <h2>Información de contacto</h2><h6 class="required">*Información obligatoria</h6>  
                     
                     <div id="info_contact">
                     <label for="nombre">Nombre:</label>
@@ -90,7 +96,7 @@
                     <div id="info_contact">
                     <label for="numero">Teléfono:</label>
                     <input type="text" name="telefono"  size="50" value="" id="telefono" class="input">
-                    (# # # # - # # # #)
+                    (1234-5678)
                     </div>
                     
                    
