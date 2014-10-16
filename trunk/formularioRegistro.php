@@ -81,14 +81,17 @@
 		</div>
 	</div>
             
+           
         
             
         <form action="procesar.php" name="Formulario" method="post" onSubmit="return validar();">
 
             <div id="envoltura">
                 <div id="columnaizq">
-                    <p>Informaci&oacute;n de perfil</p>
+                     <img src="images/registrarse.png" alt="image" style="width:100px;height:100px">
+                     <strong><u> <p>Informaci&oacute;n de perfil</p> </u></strong>
                     <table>
+                        <!--
                         <tr>
                             <td><label id="Nombre">Titulo</label></td>
                             <td>
@@ -100,16 +103,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><label id="nombre">Nombre</label></td>
-                            <td><input name="nombre" type="text" maxlength="30" size="20"></td>
+                        -->
+                            <td><label id="nombre">Nombre:</label></td>
+                            <td><input name="nombre" type="text" maxlength="35" size="25"></td>
                         </tr>
                         <tr>
-                            <td><label>Apellido(s)</label></td>
-                            <td><input name="apellido" type="text" maxlength="30" size="25"></td>
+                            <td><label>Apellido(s):</label></td>
+                            <td><input name="apellido" type="text" maxlength="35" size="25"></td>
                         </tr>
                       
                         <tr>
-                            <td><label>Sexo</label></td>
+                            <td><label>Sexo:</label></td>
 	
                             <td>
                                 <input id="sexo_m" name="sexo" type="radio" value="m" checked="true"><label>Masculino</label>
@@ -122,7 +126,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><label>Fecha de nacimiento</label></td>
+                            <td><label>Fecha de nacimiento:</label></td>
                             <td>
                                 <select name="dia">
                                     <option value="0" selected="selected">D&iacute;a</option>
@@ -176,24 +180,24 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><label>A&ntilde;o&nbsp;</label></td>
+                            <td><label>A&ntilde;o&nbsp;:</label></td>
                             <td>
                                 <input name="anno" type="text" size="4" maxlength="4">(p. ej., 1978)</td>
 
                         </tr>
                     </table>
                 </div>
-
+            
                 <div id="central">
-                    <p>Informaci&oacute;n de la cuenta</p>
+                    <strong><u><p>Informaci&oacute;n de la cuenta</p></u></strong>
                     <table>
                         <tr>
-                            <td><label>Correo electr&oacutenico</label></td>
+                            <td><label>Correo electr&oacutenico:</label></td>
                             <td><input name="sesion" type="text"></td>
                             <td style="background-color:#CCCCCC">(cuenta@dominio)</td>
                         </tr>
                         <tr>
-                            <td><label>Contrase&ntilde;a</label></td>
+                            <td><label>Contrase&ntilde;a:</label></td>
                             <td><input name="pass" type="password"></td>
                             <td style="background-color:#CCCCCC">
                                 La contraseña debe tener <strong>al menos ocho (8) caracteres de longitud</strong>,<br>
@@ -203,13 +207,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><label>Confirmaci&oacute;n contrase&ntilde;a</label></td>
+                            <td><label>Confirmaci&oacute;n contrase&ntilde;a:</label></td>
                             <td><input name="repass" type="password"></td>
                             <td style="background-color:#CCCCCC">Digíte de nuevo la contrase&ntilde;a para verificar 
                                                                  que sea la correcta
                             </td>
                         </tr>
                     </table>
+                    
+                    <div >
+                        <input type="button" name="listo"  value="Enviar" id="listo" class="input">
+                    </div>
                 </div>
 
 <!--                <div id="columnader">
@@ -255,14 +263,18 @@
                         </tr>
                     </table>
                 </div>-->
+
             </div>
 	
 
         </form>
-            
+        <div class="row clearfix">
+                <div class="col-md-12 column">
+                        
+                        
+                </div>
         </div>
-        
-        <div class="row clearfix" style="background-color: black">
+             <div class="row clearfix" style="background-color: black">
          <hr></hr>      
             <div class="col-md-12 column" style="background-color: black">
                         
@@ -300,5 +312,8 @@
           <hr></hr>
             
             </div>
+        </div>
+        
+       
     </body>
 </html>
