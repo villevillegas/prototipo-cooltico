@@ -54,21 +54,6 @@
         height: 500px;
 }
 
-#centro
-{
-    padding: 15px 15px;
-    border: 2px solid #fff;
-    color: #1A437F;
-    background-color: #eaeaea;
-    background-image: linear-gradient(top, #eaeaea, #fff);
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .05) inset,
-                0 0 1px 0 rgba(0, 0, 0, .2),
-                0 2px 2px rgba(0, 0, 0, .3),
-                0 10px 10px -5px rgba(0, 0, 0, .2);
-        width: 1168px;
-        height: 500px;
-}
 
 #header{
 width: 1170px;
@@ -103,16 +88,15 @@ color: red;
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #DDDDDD;
     border-radius: 6px 6px 6px 6px;
-    bottom: 50px;
+    bottom: 180px;
     left: auto;
-    margin-left: -10px;
+    margin-left: -25px;
     padding: 10px 0 0;
     position: fixed;
     text-align: center;
-    width: 90px;
     z-index: 15;
-	opacity: 0.9;
-	 width: 200px;
+    opacity: 0.9;
+    width: 280px;
     height: 200px;
 }
 

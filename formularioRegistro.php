@@ -104,7 +104,8 @@
                         </tr>
                         <tr>
                         -->
-                            <td><label id="nombre">Nombre:</label></td>
+                        <tr>
+                            <td><label id="nombre" >Nombre:</label></td>
                             <td><input name="nombre" type="text" maxlength="35" size="25"></td>
                         </tr>
                         <tr>
