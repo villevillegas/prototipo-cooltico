@@ -58,21 +58,18 @@
 							<a href="#">No se que mas</a>
 						</li>-->
 						<li class="dropdown pull-right">
+                                                    
 							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							
                                                          <ul class="dropdown-menu">
+                                                             
 								<li>
-									<a href="#">Iniciar Sesión</a>    
+								     <a href="#">Iniciar Sesión</a>    
 								</li>
 								<li>
                                                                     <a href="formularioRegistro.php">Registrarse</a>
 								</li>
-                                                                
-                                                                <div class="ventana_flotante">
-                                                   
-                                                                    <label for="correo">correo:</label>
-                                                                    <input type="text" name="correologin"  size="15" value="" id="correologin" class="input">
-                                                                </div>
+                                                             
 <!--								<li>
 									<a href="#">Something else here</a>
 								</li>-->
