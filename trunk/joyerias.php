@@ -66,6 +66,8 @@
 								<li>
 								     <a href="#">Iniciar Sesión</a>    
 								</li>
+                                                                
+                                                                
 								<li>
                                                                     <a href="formularioRegistro.php">Registrarse</a>
 								</li>

@@ -108,6 +108,7 @@
 							
 							<ul class="nav nav-tabs">
                                                             
+                                                            
                                                                 <li class="iniciar">
 									<a onclick="myFunction()">Iniciar sesión/Registrarse</a>   
                                                                  </li>
