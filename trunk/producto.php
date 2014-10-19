@@ -56,6 +56,9 @@
 						<li>
                                                     <a href="Contactenos.php">Contáctenos</a>
 						</li>
+                                                <li>
+                                                    <a href="joyerias.php">Joyerias</a>
+						</li>
 <!--						<li class="active">
 							<a href="#">No se que mas</a>
 						</li>-->
