@@ -244,25 +244,25 @@
 			<br/>
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
@@ -273,55 +273,25 @@
 			
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-			</div>
-			<br>
-			<br>
-			
-			
-			<div class="row clearfix">
-				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
@@ -333,25 +303,25 @@
 			
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
@@ -363,26 +333,56 @@
 			
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+					<h4>
+						Object Name
+					</h4>
+				</div>
+				<div class="col-md-3 column">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+					<h4>
+						Object Name
+					</h4>
+				</div>
+				<div class="col-md-3 column">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+					<h4>
+						Object Name
+					</h4>
+				</div>
+			</div>
+			<br>
+			<br>
+			
+			
+			<div class="row clearfix">
+				<div class="col-md-3 column">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+					<h4>
+						Object Name
+					</h4>
+				</div>
+				<div class="col-md-3 column">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
 			
-			<img alt="140x140" src="http://lorempixel.com/140/140/">
+			              <a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
