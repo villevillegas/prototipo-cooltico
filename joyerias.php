@@ -27,21 +27,20 @@
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="img/favicon.png">
   
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+  
+  <script type="text/javascript" src="js/library/jquery.min.js"></script>
+  <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/library/scripts.js"></script>
+        
 </head>
 
 <body>
 <div class="container">
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<h3 class="text-left">
-				Cool Tico
-			</h3>
-			<br>
-		</div>
-	</div>
+	
 	
 	
 	<div class="row clearfix">

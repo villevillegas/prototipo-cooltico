@@ -153,21 +153,21 @@
                                     <h3>Productos Electrónicos</h3>
                                 </div>
 				<div class="col-md-4 column">
-					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="para_el_hogar.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
                                      <h3>Para el Hogar</h3>
                                 </div>
 			</div><hr></hr>
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="ropa.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
                                     <h3>Ropa</h3>
                                 </div>
 				<div class="col-md-4 column">
-					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="anteojos.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
                                      <h3>Anteojos</h3>
                                 </div>
 				<div class="col-md-4 column">
-					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="otros.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
                                      <h3>Otros</h3>
                                 </div>
 			</div>

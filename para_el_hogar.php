@@ -14,7 +14,6 @@
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-      
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -27,7 +26,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="img/favicon.png">
-  
   <script type="text/javascript" src="js/library/jquery.min.js"></script>
   <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/library/scripts.js"></script>
@@ -241,7 +239,7 @@
 		</div>
 		<div class="col-md-9 column">
 		     <h3 class="text-center">
-				Productos Electrónicos
+				Para el Hogar
 			</h3>
 			<br/>
 			<div class="row clearfix">
@@ -441,4 +439,3 @@
 </div>
 </body>
 </html>
-
