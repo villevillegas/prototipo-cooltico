@@ -60,7 +60,8 @@
 						</li>-->
 						<li class="dropdown pull-right">
 							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
+							
+                                                         <ul class="dropdown-menu">
 								<li>
 									<a href="#">Iniciar Sesión</a>    
 								</li>
@@ -70,9 +71,9 @@
                                                                 
                                                                 <div class="ventana_flotante">
                                                    
-                    <label for="correo">correo:</label>
-                    <input type="text" name="correologin"  size="15" value="" id="correologin" class="input">
-                                                                        </div>
+                                                                    <label for="correo">correo:</label>
+                                                                    <input type="text" name="correologin"  size="15" value="" id="correologin" class="input">
+                                                                </div>
 <!--								<li>
 									<a href="#">Something else here</a>
 								</li>-->
