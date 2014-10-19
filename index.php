@@ -61,22 +61,22 @@
 									<a href="#">Iniciar sesión/Registrarse</a>    
 								</li>
 								
-                                                                
-                                                                <div class="ventana_flotante">
+                                                                <!--la parte de login-->
+<!--                                                                <div class="ventana_flotante">
                                                    
-                    <label for="correo" >Correo:</label>
-                    <input type="text" name="correoLogin"  size="15" value="" id="correoLogin" class="input">
-                    <label for="contraseña">Contraseña:</label>
-                    <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input">
-                    <div >
-                        <input type="button" name="login"  value="Entrar" id="login" class="input">
-                    </div>
-                    <div >
-                        <hr/>
-                        ó
-                        <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input">
-                    </div>
-                                                        </div>
+                                                                    <label for="correo" >Correo:</label>
+                                                                    <input type="text" name="correoLogin"  size="15" value="" id="correoLogin" class="input">
+                                                                    <label for="contraseña">Contraseña:</label>
+                                                                    <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input">
+                                                                    <div >
+                                                                        <input type="button" name="login"  value="Entrar" id="login" class="input">
+                                                                    </div>
+                                                                    <div >
+                                                                        <hr/>
+                                                                        ó
+                                                                        <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input">
+                                                                    </div>
+                                                                 </div>-->
 <!--								<li>
                                                                         <a href="#">Something else here</a>
                                                                 </li>-->
