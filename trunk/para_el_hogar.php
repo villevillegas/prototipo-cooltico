@@ -160,6 +160,8 @@
 	
 	
 	<div class="row clearfix">
+            
+       
 		<div class="col-md-3 column">
 			<div class="panel-group" id="panel-307984">
 			<br/>
@@ -172,7 +174,24 @@
 					
 					<div id="panel-element-34565" class="panel-collapse collapse">
 						<div class="panel-body">
-							...
+							<li>
+                                                            <a href="producto.php">jewelry 1</a>
+                                                        </li>
+                                                        <li>
+                                                              <a href="producto.php">jewelry 2</a>
+
+                                                        </li>
+                                                         <li>
+                                                            <a href="producto.php">jewelry 3</a>
+                                                        </li>
+                                                         <li>
+                                                             <a href="producto.php">jewelry 4</a>
+                                                        </li> 
+                                                        <li>
+                                                             <a href="producto.php">jewelry 5</a>
+                                                        </li>
+                                                                
+                                                     
 						</div>
 					</div>
 					
@@ -184,7 +203,22 @@
 					</div>
 					<div id="panel-element-621917" class="panel-collapse collapse">
 						<div class="panel-body">
-							...
+							<li>
+                                                            <a href="producto1.php">electronic products 1</a>
+                                                        </li>
+                                                        <li>
+                                                              <a href="producto1.php">electronic products 2</a>
+
+                                                        </li>
+                                                         <li>
+                                                            <a href="producto1.php">electronic products 3</a>
+                                                        </li>
+                                                         <li>
+                                                             <a href="producto1.php">electronic products 4</a>
+                                                        </li> 
+                                                        <li>
+                                                             <a href="producto1.php">electronic products 5</a>
+                                                        </li>
 						</div>
 					</div>
 				</div>
@@ -195,7 +229,22 @@
 					</div>
 					<div id="panel-element-621918" class="panel-collapse collapse">
 						<div class="panel-body">
-							...
+							<li>
+                                                            <a href="producto2.php">home products 1</a>
+                                                        </li>
+                                                        <li>
+                                                              <a href="producto2.php">home products 2</a>
+
+                                                        </li>
+                                                         <li>
+                                                            <a href="producto2.php">home products 3</a>
+                                                        </li>
+                                                         <li>
+                                                             <a href="producto2.php">home products 4</a>
+                                                        </li> 
+                                                        <li>
+                                                             <a href="producto2.php">home products 5</a>
+                                                        </li>
 						</div>
 					</div>
 				</div>
@@ -206,7 +255,22 @@
 					</div>
 					<div id="panel-element-621919" class="panel-collapse collapse">
 						<div class="panel-body">
-							...
+							<li>
+                                                            <a href="producto4.php">dress 1</a>
+                                                        </li>
+                                                        <li>
+                                                              <a href="producto4.php">dress 2</a>
+
+                                                        </li>
+                                                         <li>
+                                                            <a href="producto4.php">dress 3</a>
+                                                        </li>
+                                                         <li>
+                                                             <a href="producto4.php">dress 4</a>
+                                                        </li> 
+                                                        <li>
+                                                             <a href="producto4.php">dress 5</a>
+                                                        </li>
 						</div>
 					</div>
 				</div>
@@ -217,7 +281,22 @@
 					</div>
 					<div id="panel-element-621920" class="panel-collapse collapse">
 						<div class="panel-body">
-							...
+							<li>
+                                                            <a href="producto3.php">glasses 1</a>
+                                                        </li>
+                                                        <li>
+                                                              <a href="producto3.php">glasses 2</a>
+
+                                                        </li>
+                                                         <li>
+                                                            <a href="producto3.php">glasses 3</a>
+                                                        </li>
+                                                         <li>
+                                                             <a href="producto3.php">glasses 4</a>
+                                                        </li> 
+                                                        <li>
+                                                             <a href="producto3.php">glasses 5</a>
+                                                        </li>
 						</div>
 					</div>
 				</div>
@@ -228,7 +307,22 @@
 					</div>
 					<div id="panel-element-621921" class="panel-collapse collapse">
 						<div class="panel-body">
-							...
+							<li>
+                                                            <a href="producto5.php">others 1</a>
+                                                        </li>
+                                                        <li>
+                                                              <a href="producto5.php">others 2</a>
+
+                                                        </li>
+                                                         <li>
+                                                            <a href="producto5.php">others 3</a>
+                                                        </li>
+                                                         <li>
+                                                             <a href="producto5.php">others 4</a>
+                                                        </li> 
+                                                        <li>
+                                                             <a href="producto5.php">others 5</a>
+                                                        </li>
 						</div>
 					</div>
 				</div>
@@ -237,6 +331,9 @@
 			</div>
 			
 		</div>
+            
+            
+            
 		<div class="col-md-9 column">
 		     <h3 class="text-center">
 				Para el Hogar
