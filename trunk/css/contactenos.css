@@ -85,6 +85,7 @@ color: red;
 }
 
 .ventana_flotante {
+ 
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #DDDDDD;
     border-radius: 6px 6px 6px 6px;
@@ -97,6 +98,8 @@ color: red;
     z-index: 15;
     opacity: 0.9;
     width: 280px;
-    height: 200px;
+    height: 250px;
+    visibility: hidden;
 }
+
 

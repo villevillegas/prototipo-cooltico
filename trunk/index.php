@@ -36,6 +36,56 @@
                                 </div>
                         <hr></hr>
                         </div>
+                    
+                    <div class="row clearfix">
+                            <div class="col-md-5 column">
+                            </div>
+                            <div class="col-md-5 column">
+                                    
+								
+                                <script  language="javascript">
+                                function myFunction() {
+                                    document.getElementById("ventana_flotante1").style.visibility= "visible";
+
+                                }
+                                </script>
+
+								
+                                <!--la parte de login-->
+                                <div id="ventana_flotante1" class="ventana_flotante">
+
+
+                                    <label for="correo" >Correo:</label>
+                                    <input type="text" name="correoLogin"  size="15" value="" id="correoLogin" class="input"><br><br>
+                                    <label for="contraseña">Contraseña:</label>
+                                    <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input"><br><br>
+                                    
+                                    <div >
+                                        <input onclick="myFunction1()" type="button" name="login"  value="Entrar" id="login" class="input"><br/><br/>
+                                        <script  language="javascript">
+                                        function myFunction1() {
+                                            document.getElementById("ventana_flotante1").style.visibility= "hidden";
+
+                                        }
+                                        </script>
+                                    </div>
+                                    <div >
+                                        
+                                        <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input"><br/><br/>
+                                    </div>
+                                     <div >
+                                        
+                                         <input onclick="myFunction1()" type="button" name="login"  value="cancelar" id="cancelar" class="input"><br/><br/>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-5 column">
+                            </div>
+                    </div>
+                    
+                    
+                    
+                    
 			<div class="row clearfix">
 				<div class="col-md-12 column">
 					<ul class="nav nav-tabs ">
@@ -57,26 +107,10 @@
 						<li class="dropdown pull-right">
 							
 							<ul class="nav nav-tabs">
-								<li>
-									<a href="#">Iniciar sesión/Registrarse</a>    
-								</li>
-								
-                                                                <!--la parte de login-->
-<!--                                                                <div class="ventana_flotante">
-                                                   
-                                                                    <label for="correo" >Correo:</label>
-                                                                    <input type="text" name="correoLogin"  size="15" value="" id="correoLogin" class="input">
-                                                                    <label for="contraseña">Contraseña:</label>
-                                                                    <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input">
-                                                                    <div >
-                                                                        <input type="button" name="login"  value="Entrar" id="login" class="input">
-                                                                    </div>
-                                                                    <div >
-                                                                        <hr/>
-                                                                        ó
-                                                                        <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input">
-                                                                    </div>
-                                                                 </div>-->
+                                                            
+                                                                <li class="iniciar">
+									<a onclick="myFunction()">Iniciar sesión/Registrarse</a>   
+                                                                 </li>
 <!--								<li>
                                                                         <a href="#">Something else here</a>
                                                                 </li>-->
