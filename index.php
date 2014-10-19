@@ -76,15 +76,15 @@
                         ó
                         <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input">
                     </div>
-                                                                        </div>
+                                                        </div>
 <!--								<li>
-									<a href="#">Something else here</a>
-								</li>-->
+                                                                        <a href="#">Something else here</a>
+                                                                </li>-->
 <!--								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>-->
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">Separated link</a>
+                                                                </li>-->
 							</ul>
 						</li>
 					</ul>
@@ -201,6 +201,7 @@
 			</div>
 		</div>
 	</div><hr></hr>
+        
         <div class="row clearfix" style="background-color: black">
 	 <hr></hr>	
             <div class="col-md-12 column" style="background-color: black">
@@ -236,7 +237,7 @@
                             </div>
                         </div>
                 </div>
-          <hr></hr>
+            <hr></hr>
             
             </div>
 </div>
