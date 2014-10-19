@@ -167,11 +167,13 @@
 	<br>
 	
 	
-	
 	<div class="row clearfix">
 		<div class="col-md-3 column">
 			<div class="panel-group" id="panel-307984">
+			<br/>
+		
 				<div class="panel panel-default">
+				     
 					<div class="panel-heading">
 						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-307984" href="#panel-element-34565">Joyeria</a>
 					</div>
@@ -244,7 +246,10 @@
 			
 		</div>
 		<div class="col-md-9 column">
-		
+		     <h3 class="text-center">
+				Joyerias
+			</h3>
+			<br/>
 			<div class="row clearfix">
 				<div class="col-md-3 column">
 					<img alt="140x140" src="http://lorempixel.com/140/140/">
@@ -378,7 +383,8 @@
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
+			
+			<img alt="140x140" src="http://lorempixel.com/140/140/">
 					<h4>
 						Object Name
 					</h4>
@@ -395,9 +401,9 @@
 			
 			
 		</div>
+		
 	</div>
-        
-        
+	
 	<div class="row clearfix" style="background-color: black">
 	 <hr></hr>	
             <div class="col-md-12 column" style="background-color: black">
@@ -436,10 +442,8 @@
             <hr></hr>
             
        </div>
-        
-        
-        
-        
+	
+	
 </div>
 </body>
 </html>

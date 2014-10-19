@@ -145,11 +145,11 @@
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-                                    <a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="joyerias.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
                                     <h3>Joyería</h3>
 				</div>
 				<div class="col-md-4 column">
-					<a href="producto.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="productos_electronicos.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
                                     <h3>Productos Electrónicos</h3>
                                 </div>
 				<div class="col-md-4 column">
