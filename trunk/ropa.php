@@ -241,7 +241,7 @@
 		</div>
 		<div class="col-md-9 column">
 		     <h3 class="text-center">
-				Productos Electrónicos
+				Ropa
 			</h3>
 			<br/>
 			<div class="row clearfix">
@@ -441,4 +441,5 @@
 </div>
 </body>
 </html>
+
 
