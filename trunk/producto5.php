@@ -175,13 +175,10 @@
 					<ul class="nav navbar-nav navbar-right">
 						
 						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">cart<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">....</a>
-								</li>
-							
-							</ul>
+							<li id=gh-cart class="" ><a href=""
+                                                                        _sp=m570.l2633 title="Tu carro de compras" class="" >
+                                                                        <i id=gh-cart-i class=gh-sprRetina></i></a>
+                                                          </li>
 						</li>
 					</ul>
 				</div>
