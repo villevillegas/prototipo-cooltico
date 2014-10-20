@@ -79,13 +79,14 @@
                     <img src="images/edi.png" alt="image" style="width:75px;height:75px">
                      <strong><u> Editar Producto </u></strong>
                     <table>
+                     
                         <tr >
                             <td><label >Nombre:</label></td>
                             <td><input name="nombre" type="text" maxlength="35" size="25"></td>
                         </tr>
                         <tr>
                             <td><label>Código:</label></td>
-                            <td><input name="códigoo" type="text" maxlength="35" size="25"></td>
+                            <td><input name="código" type="text" maxlength="35" size="25"></td>
                         </tr>
                      
                         <tr>
@@ -93,7 +94,7 @@
                             <td><input name="cantProducto" type="text" maxlength="35" size="25"></td>
                                     
                         </tr>
-                      
+                       
                         <tr>
                             <td><label>Descripción:</label></td>
                             <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea>
