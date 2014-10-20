@@ -74,15 +74,15 @@ height: 50px;
 }
 
 
-h4{
+h4.footer{
 color: white;
 }
 
-h5{
+h5.footer{
 color: white;
 }
 
-h5 a{
+h5.footer a{
 color: white;
 }
 
@@ -122,7 +122,7 @@ color: red;
 	text-decoration: none;
 	display: inline-block;
 	/* Volver a dar tamaño al texto */
-	font-size: 40px;
+	font-size: 30px;
 	font-size: 3rem;
 	
 	color: #888;

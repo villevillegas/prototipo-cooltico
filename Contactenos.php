@@ -32,14 +32,7 @@
                     <div class="row clearfix" style="background-color: #ffffff">
                                 <div class="col-md-12 column img-responsive" id="header">
                                   
-                                    <div class="ec-stars-wrapper">
-	<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-	<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-	<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-	<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-	<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-</div>
-<noscript>Necesitas tener habilitado javascript para poder votar</noscript>
+                                   
                                    <!-- 
                                     <form id="busqueda">
                                 <input type="text" placeholder="Buscar..." required>
@@ -64,6 +57,15 @@
 							<input type="text" class="form-control">
 						</div> <button type="submit" class="btn btn-default">Buscar</button>
 					</form>
+                                                 <div class="ec-stars-wrapper">
+                                               
+	<a href="#" data-value="1" title="Calificar con 1 estrellas">&#9733;</a>
+	<a href="#" data-value="2" title="Calificar con 2 estrellas">&#9733;</a>
+	<a href="#" data-value="3" title="Calificar con 3 estrellas">&#9733;</a>
+	<a href="#" data-value="4" title="Calificar con 4 estrellas">&#9733;</a>
+	<a href="#" data-value="5" title="Calificar con 5 estrellas">&#9733;</a>
+</div>
+<noscript>Necesitas tener habilitado javascript para poder votar</noscript>
                                              
                                                 <li class="dropdown pull-right">
                                                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
@@ -134,27 +136,27 @@
                         <div class="row clearfix">
                             
                                 <div class="col-md-4 column">
-                                    <h4>Compañia</h4>
-                                    <h5><a href="AcercaNosotros.php">Acerca de Nosotros</a></h5>
-                                    <h5><a href="#">Terminos y Condiciones</a></h5>
-                                    <h4>Ayuda</h4>
-                                    <h5><a href="#">Preguntas frecuentes</a></h5>
+                                    <h4 class="footer">Compañia</h4>
+                                    <h5 class="footer"><a href="AcercaNosotros.php">Acerca de Nosotros</a></h5>
+                                    <h5 class="footer"v><a href="#">Terminos y Condiciones</a></h5>
+                                    <h4 class="footer">Ayuda</h4>
+                                    <h5 class="footer"><a href="#">Preguntas frecuentes</a></h5>
                                    
                                 </div>
                             
                                 <div class="col-md-4 column">
-                                     <h4>Teléfono</h4>
-                                        <h5>7257-1374</h5>
+                                     <h4 class="footer">Teléfono</h4>
+                                        <h5 class="footer">7257-1374</h5>
                                     
-                                     <h4>Email</h4>
-                                        <h5>compras@cooltico.com</h5>
+                                     <h4 class="footer">Email</h4>
+                                        <h5 class="footer">compras@cooltico.com</h5>
                                      
                                 </div>
                             
                               
                               
                             <div class="col-md-4 column buttons">
-                                    <h4>Redes Sociales</h4>
+                                    <h4 class="footer">Redes Sociales</h4>
                                     <div class="buttons">
                                     <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
                                 
