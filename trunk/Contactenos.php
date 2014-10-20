@@ -57,15 +57,7 @@
 							<input type="text" class="form-control">
 						</div> <button type="submit" class="btn btn-default">Buscar</button>
 					</form>
-                                                 <div class="ec-stars-wrapper">
                                                
-	<a href="#" data-value="1" title="Calificar con 1 estrellas">&#9733;</a>
-	<a href="#" data-value="2" title="Calificar con 2 estrellas">&#9733;</a>
-	<a href="#" data-value="3" title="Calificar con 3 estrellas">&#9733;</a>
-	<a href="#" data-value="4" title="Calificar con 4 estrellas">&#9733;</a>
-	<a href="#" data-value="5" title="Calificar con 5 estrellas">&#9733;</a>
-</div>
-<noscript>Necesitas tener habilitado javascript para poder votar</noscript>
                                              
                                                 <li class="dropdown pull-right">
                                                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
