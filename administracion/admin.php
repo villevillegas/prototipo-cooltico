@@ -23,7 +23,7 @@ require('./adm-php/tablaProducto.php');
         <script type="text/javascript" src="../js/library/scripts.js"></script>
 
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-       
+
         <script type="text/javascript" src="adm-js/init.js"></script>
         <script type="text/javascript" src="adm-js/eventos.js"></script>
         <script type="text/javascript" src="adm-js/Tabbed_Panel.js"></script>
@@ -68,35 +68,77 @@ require('./adm-php/tablaProducto.php');
                                     <div class="divScroll"> 
                                         <h1>PRODUCTOS</h1>
                                         <div class="row">
-                                            <button class="col-md-2 btn btn-sm btn-info">Agregar Producto <span class="glyphicon glyphicon-plus"></span></button>
-                                            
+
+                                            <a href="InsertarProducto.php"><button id="btn-agregar-producto"  class="col-md-2 btn btn-sm btn-info">Agregar Producto <span class="glyphicon glyphicon-plus"></span></button></a>
+                                            <div class="modal fade bs-example-modal-lg" id="modal-agregar-producto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content" style="max-width: 1000px">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                            <h4 class="modal-title" id="myModalLabel">Agregar Role</h4>
+                                                        </div>
+                                                        <div class="modal-body" style="max-width: 1000px">
+                                                            <div id="izquierdo">
+                                                                <img src="images/add.png" alt="image" style="width:70px;height:70px">
+                                                                <strong><u> Insertar Producto </u></strong>
+                                                                <table>
+                                                                    <tr >
+                                                                        <td><label >Nombre:</label></td>
+                                                                        <td><input name="nombre" type="text" maxlength="35" size="25"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><label>Código:</label></td>
+                                                                        <td><input name="códigoo" type="text" maxlength="35" size="25"></td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td><label>Cantidad del producto:</label></td>
+                                                                        <td><input name="cantProducto" type="text" maxlength="35" size="25"></td>
+
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td><label>Descripción:</label></td>
+                                                                    <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea>
+                                                                    </tr>
+
+
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                                            <button type="button" class="btn btn-primary">Guardar</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="row">
-                                             <?php
-                                             $url ="adm-js/productos.json";
-                                             
-                                $contador = 0;
-                                $encabezado = Array("#", "Nombre", "Codigo", "Precio", "Marca", "Descripción");
-                                $filas = Array();
-                                $json = json_decode(file_get_contents($url), true);
-                                $tbls = $json["productos"];
+                                            <?php
+                                            $url = "adm-js/productos.json";
+
+                                            $contador = 0;
+                                            $encabezado = Array("#", "Nombre", "Codigo", "Precio", "Marca", "Descripción");
+                                            $filas = Array();
+                                            $json = json_decode(file_get_contents($url), true);
+                                            $tbls = $json["productos"];
 //$tbls = procedure_call("ROLESSISTEMA");
 //tablas($tbls);
-                                foreach ($tbls as $t) {
+                                            foreach ($tbls as $t) {
 
-                                    array_push($filas, ++$contador);
-                                    array_push($filas, "<button data-toggle='tooltip' data-placement='left' title='Editar' id = '" . $t["nombre"] . "' name='" . $t["nombre"] . "' class='btn-editar-role btn-xs btn btn-primary'><span class='glyphicon glyphicon-pencil'></span></button>   " . $t["nombre"]);
-                                    array_push($filas, $t["codigo"]);
-                                    array_push($filas, $t["precio"]);
-                                    array_push($filas, $t["marca"]);
-                                    array_push($filas, $t["descripcion"]);
-                                }
+                                                array_push($filas, ++$contador);
+                                                array_push($filas, "<a href='editarProducto.php'><button data-toggle='tooltip' data-placement='left' title='Editar' id = '" . $t["nombre"] . "' name='" . $t["nombre"] . "' class='btn-editar-role btn-xs btn btn-primary'><span class='glyphicon glyphicon-pencil'></span></button></a>   " . $t["nombre"]);
+                                                array_push($filas, $t["codigo"]);
+                                                array_push($filas, $t["precio"]);
+                                                array_push($filas, $t["marca"]);
+                                                array_push($filas, $t["descripcion"]);
+                                            }
 
-                                $accion = 'alert("Hola")';
-                                echo TablaProductos($encabezado, $filas, "", "tablaUser");
-                                
-                                ?>
-                                            
+                                            $accion = 'alert("Hola")';
+                                            echo TablaProductos($encabezado, $filas, "", "tablaProductos");
+                                            ?>
+
                                         </div>
                                     </div>
                                 </div>
@@ -109,22 +151,83 @@ require('./adm-php/tablaProducto.php');
                                     <div class="col-md-12 divScroll">
 
                                         <h1>CATEGORIAS</h1>
+                                        <div class="row">
+                                            <button class="col-md-2 btn btn-sm btn-info">Agregar Categoría<span class="glyphicon glyphicon-plus"></span></button>
+
+                                        </div>
+                                        <div class="row">
+                                            <?php
+                                            $url = "adm-js/categorias.json";
+
+                                            $contador = 0;
+                                            $encabezado = Array("#", "Categoria");
+                                            $filas = Array();
+                                            $json = json_decode(file_get_contents($url), true);
+                                            $tbls = $json["categorias"];
+
+                                            foreach ($tbls as $t) {
+
+                                                array_push($filas, ++$contador);
+                                                array_push($filas, "<button data-toggle='tooltip' data-placement='left' title='Editar' id = '" . $t["nombre"] . "' name='" . $t["nombre"] . "' class='btn-editar-role btn-xs btn btn-primary'><span class='glyphicon glyphicon-pencil'></span></button>   " . $t["nombre"]);
+                                            }
+
+                                            $accion = 'alert("Hola")';
+                                            echo TablaProductos($encabezado, $filas, "", "tablaProductos");
+                                            ?>
+
+                                        </div>
                                     </div>
 
-                                   
+
                                 </div>
                             </div>
                             <div id="divReportes" class="pestana row tab-pane">
                                 <div class="row row-pestana-reportes">
                                     <div class="col-md-12 divScroll">
                                         <h1>REPORTES</h1>
-                                        
+                                        <div class="row clearfix">
+                                            <div class="col-md-12 column" id="centro">
+                                                <img src="../images/reporte.png" alt="image" style="width:80px;height:80px">
+                                                <h2>Reportes de Ventas</h2>
+
+                                                <div id="datos">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <div id="info_Reporte">
+                                                                    <label for="nombre">Generar Reporte por:</label>
+                                                                    <select name="periodo">
+                                                                        <option value="dia">D&iacute;a</option>
+                                                                        <option value="semana">Semana</option>
+                                                                        <option value="mes">Mes</option>
+                                                                        <option value="annio">A&ntilde;o</option>
+                                                                    </select>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>
+                                                                <label for="nombre">Desde:</label>
+                                                                <input type="date">
+                                                                <label for="nombre">Hasta:</label>
+                                                                <input type="date">
+                                                                <input type="button" size="50" value="Generar Reporte" id="email" class="input">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>   
+
+                                            </div> 
+
+                                        </div> <!--Fin-->
+
                                     </div>
 
-                                    
+
                                 </div>
 
-                                
+
                             </div>
 
                         </div> <!--Display_content-->

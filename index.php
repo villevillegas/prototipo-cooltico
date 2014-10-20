@@ -191,29 +191,29 @@
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-                                    <a href="joyerias.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="joyerias.php"><img alt="140x140" src="upload/aretes2.jpg" style="max-height:300px "></a>
                                     <h3>Joyería</h3>
 				</div>
 				<div class="col-md-4 column">
-                                    <a href="productos_electronicos.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="productos_electronicos.php"><img alt="140x140" src="upload/baseCelular3.jpg" style="max-height:300px"></a>
                                     <h3>Productos Electrónicos</h3>
                                 </div>
 				<div class="col-md-4 column">
-                                    <a href="para_el_hogar.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
-                                     <h3>Para el Hogar</h3>
+                                    <a href="para_el_hogar.php"><img alt="140x140" src="upload/tenni2.jpg" style="max-height:300px"></a>
+                                     <h3>Deportivo</h3>
                                 </div>
 			</div><hr></hr>
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-                                    <a href="ropa.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="ropa.php"><img alt="140x140" src="upload/tenni1.jpg" style="max-height:300px"></a>
                                     <h3>Ropa</h3>
                                 </div>
 				<div class="col-md-4 column">
-                                    <a href="anteojos.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="anteojos.php"><img alt="140x140" src="upload/anteojos.jpeg" style="max-height:300px"></a>
                                      <h3>Anteojos</h3>
                                 </div>
 				<div class="col-md-4 column">
-                                    <a href="otros.php"><img alt="140x140" src="http://lorempixel.com/140/140/"></a>
+                                    <a href="otros.php"><img alt="140x140" src="upload/estucheCelBici.jpg" style="max-height:300px"></a>
                                      <h3>Otros</h3>
                                 </div>
 			</div>

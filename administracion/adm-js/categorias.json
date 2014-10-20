@@ -1,0 +1,23 @@
+{
+  
+    "categorias":[
+        {
+            "nombre":"Joyería"
+            
+        },
+        {
+            "nombre":"Productos Electrónicos"
+        },
+        {
+            "nombre":"Para el Hogar"
+        },
+        {
+            "nombre":"accesorios"
+        },
+        {
+            "nombre":"Otros"
+        }
+        
+    ]
+    
+}
