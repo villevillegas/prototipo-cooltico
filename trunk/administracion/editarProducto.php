@@ -12,18 +12,18 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
         
-        <script type="text/javascript" src="js/library/jquery.min.js"></script>
-	<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/library/scripts.js"></script>
+         <script type="text/javascript" src="../js/library/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/library/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/library/scripts.js"></script>
         
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <script src="/js/inicio.js"></script>
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
        
-        <link rel="stylesheet" type="text/css" href="css/contactenos.css" />
-        <link rel="stylesheet" type="text/css" href="css/InsertProduct.css" />
+        <link rel="stylesheet" type="text/css" href="../css/contactenos.css" />
+        <link rel="stylesheet" type="text/css" href="../css/InsertProduct.css" />
     </head>
     <body>
        
@@ -47,6 +47,7 @@
                                                     <a href="Contactenos.php">Contáctenos</a>
 						</li>
 						
+                                                
                                                 <form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control">
@@ -73,16 +74,17 @@
    
 
                 <div id="izquierdo">
-                    <img src="images/add.png" alt="image" style="width:70px;height:70px">
-                     <strong><u> Insertar Producto </u></strong>
+                    <img src="images/edi.png" alt="image" style="width:75px;height:75px">
+                     <strong><u> Editar Producto </u></strong>
                     <table>
+                     
                         <tr >
                             <td><label >Nombre:</label></td>
                             <td><input name="nombre" type="text" maxlength="35" size="25"></td>
                         </tr>
                         <tr>
                             <td><label>Código:</label></td>
-                            <td><input name="códigoo" type="text" maxlength="35" size="25"></td>
+                            <td><input name="código" type="text" maxlength="35" size="25"></td>
                         </tr>
                      
                         <tr>
@@ -90,7 +92,7 @@
                             <td><input name="cantProducto" type="text" maxlength="35" size="25"></td>
                                     
                         </tr>
-                      
+                       
                         <tr>
                             <td><label>Descripción:</label></td>
                             <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea>

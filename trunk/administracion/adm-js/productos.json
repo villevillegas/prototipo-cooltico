@@ -1,0 +1,105 @@
+{
+  
+    "productos":[
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        },
+        {
+            "nombre":"Reloj",
+            "codigo":"456789",
+            "precio":"5000",
+            "marca":"casio",
+            "descripcion":"Descripcion del reloj" 
+        }
+        
+    ]
+    
+}
