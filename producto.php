@@ -27,7 +27,8 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="img/favicon.png">
-  
+  <link href="http://ir.ebaystatic.com/rs/v/qpjvxkmmvi1xzbe4prueap0vua4.css" 
+  type="text/css" rel="stylesheet" slotId="gh-css">
   <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css"/>
   <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
@@ -177,13 +178,10 @@
 					<ul class="nav navbar-nav navbar-right">
 						
 						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">cart<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">....</a>
-								</li>
-							
-							</ul>
+							 <li id=gh-cart class="" ><a href=""
+                                                                        _sp=m570.l2633 title="Tu carro de compras" class="" >
+                                                                        <i id=gh-cart-i class=gh-sprRetina></i></a>
+                                                          </li>
 						</li>
 					</ul>
 				</div>

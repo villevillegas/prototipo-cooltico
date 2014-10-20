@@ -32,7 +32,10 @@
   <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
   <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
   
-  <script type="text/javascript" src="js/library/jquery.min.js"></script>
+  <link href="http://ir.ebaystatic.com/rs/v/qpjvxkmmvi1xzbe4prueap0vua4.css" 
+  type="text/css" rel="stylesheet" slotId="gh-css">
+
+   <script type="text/javascript" src="js/library/jquery.min.js"></script>
   <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/library/scripts.js"></script>
         
@@ -148,8 +151,18 @@
 					<ul class="nav navbar-nav navbar-right">
 						
 						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">cart<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
+                                                    
+							 
+				
+				
+                                                        <li id=gh-cart class="" ><a href=""
+                                                        _sp=m570.l2633 title="Tu carro de compras" class="" >
+                                                        <i id=gh-cart-i class=gh-sprRetina></i></a>
+                                                        </li>
+                                                        
+                                                         
+                                                 
+                                                        <ul class="dropdown-menu">
 								<li>
 									<a href="#">....</a>
 								</li>
