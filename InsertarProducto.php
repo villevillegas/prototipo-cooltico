@@ -46,10 +46,7 @@
 						<li>
                                                     <a href="Contactenos.php">Contáctenos</a>
 						</li>
-						<li >
-							<a href="#">Registro</a>
-						</li>
-                                                
+						
                                                 <form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control">

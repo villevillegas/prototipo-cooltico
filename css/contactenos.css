@@ -122,8 +122,8 @@ color: red;
 	text-decoration: none;
 	display: inline-block;
 	/* Volver a dar tamaño al texto */
-	font-size: 32px;
-	font-size: 2rem;
+	font-size: 40px;
+	font-size: 3rem;
 	
 	color: #888;
 }
