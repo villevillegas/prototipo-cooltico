@@ -1,0 +1,126 @@
+#busqueda{ margin-left: 900px;
+                        }
+ 
+ 
+
+ #enviar { 
+ width: 80px;
+ height: 40px;
+ }
+ 
+.buttons { margin-top: 14px; }
+        
+.buttons a {
+
+
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+    background-color: #eaeaea;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
+    background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
+    background-image: -moz-linear-gradient(top, #f6f6f6, #eaeaea);
+    background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea);
+    background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
+    background-image: linear-gradient(top, #f6f6f6, #eaeaea);
+        -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+   
+}
+
+.facebook img {
+        width: 60px;
+    height: 60px;
+        display: inline-block;
+    position: relative;
+}
+        
+#centro 
+{
+    padding: 15px 15px;
+    border: 2px solid #fff;
+    color: #1A437F;
+    background-color: #eaeaea;
+    background-image: linear-gradient(top, #eaeaea, #fff);
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05) inset,
+                0 0 1px 0 rgba(0, 0, 0, .2),
+                0 2px 2px rgba(0, 0, 0, .3),
+                0 10px 10px -5px rgba(0, 0, 0, .2);
+        width: 1168px;
+        height: 500px;
+}
+
+
+#header{
+width: 1170px;
+height: 200px;
+background-image:url(../images/coolLogo.png);
+background-repeat: no-repeat;
+}
+
+
+h4{
+color: white;
+}
+
+h5{
+color: white;
+}
+
+h5 a{
+color: white;
+}
+
+.required{
+color: red;
+}
+
+.ventana_flotante {
+ 
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    bottom: 180px;
+    left: auto;
+    margin-left: -25px;
+    padding: 10px 0 0;
+    position: fixed;
+    text-align: center;
+    z-index: 15;
+    opacity: 0.9;
+    width: 280px;
+    height: 250px;
+    visibility: hidden;
+}
+
+.ec-stars-wrapper {
+	/* Espacio entre los inline-block (los hijos, los `a`) 
+	   http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+	font-size: 0;
+	/* Podríamos quitarlo, 
+		pero de esta manera (siempre que no le demos padding), 
+		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+		también se esté haciendo hover a alguna estrella */
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	/* Volver a dar tamaño al texto */
+	font-size: 40px;
+	font-size: 3rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
