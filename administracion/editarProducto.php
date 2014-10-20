@@ -30,9 +30,19 @@
         
         <div class="container">
 	<div class="row clearfix">
-		<!--<div class="col-md-12 column">
+            
+            <div class="row clearfix">
+				<div class="col-md-12 column">
+					<ul class="nav nav-tabs">
+                                            <li>
+                                            </div> <button href="admin.php" type="submit" class="btn btn-default">Regresar</button>
+                                            </li>
+                                            </ul>
+				</div>
+			</div>
+                                            <!--<div class="col-md-12 column">
 			<div class="row clearfix" style="background-color: black">
-				<div class="col-md-12 column img-responsive" >
+				<div class="col-md-12 column img-responsive" id="header">
                            
                                    
                                 </div>
