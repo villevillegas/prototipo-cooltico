@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Nuevo Usuario|COOLTICO.COM</title>
+        <title>COOLTICO.COM</title>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
@@ -46,7 +46,7 @@
 						<li>
                                                     <a href="Contactenos.php">Contáctenos</a>
 						</li>
-						<li class="active">
+						<li >
 							<a href="#">Registro</a>
 						</li>
                                                 
