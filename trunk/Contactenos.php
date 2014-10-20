@@ -23,7 +23,7 @@
         
     </head>
     <body>
-        <div style="background-color: black">
+        <div >
         <div class="container"  style="background-color: #ffffff" >
         <div class="row clearfix">
        
@@ -87,8 +87,8 @@
         <div class="row clearfix">
                 <div class="col-md-12 column" id="centro">
                   <img src="images/Send.png" alt="image" style="width:80px;height:80px">
-                    <h2>Espacio para sugerencias o preguntas</h2>
-                    <h3>Información de contacto</h3><h6 class="required">*Información obligatoria</h6>  
+                    <h2 >Espacio para sugerencias o preguntas</h2>
+                    <h3 >Información de contacto</h3><h6 class="required">*Información obligatoria</h6>  
                     
                     <div id="info_contact">
                     <label for="nombre">Nombre:</label>

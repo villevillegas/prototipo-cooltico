@@ -30,9 +30,9 @@
         
         <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-12 column">
+		<!--<div class="col-md-12 column">
 			<div class="row clearfix" style="background-color: black">
-				<div class="col-md-12 column img-responsive" id="header">
+				<div class="col-md-12 column img-responsive" >
                            
                                    
                                 </div>
@@ -69,12 +69,12 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</div>-->
 	</div>
    
 
                 <div id="izquierdo">
-                    <img src="images/edi.png" alt="image" style="width:75px;height:75px">
+                    <img src="../images/edi.png" alt="image" style="width:75px;height:75px">
                      <strong><u> Editar Producto </u></strong>
                     <table>
                      
@@ -95,7 +95,7 @@
                        
                         <tr>
                             <td><label>Descripción:</label></td>
-                            <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea>
+                            <td><textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea></td>
                         </tr>
                        
                         
@@ -167,7 +167,7 @@
                             <div class="col-md-4 column buttons">
                                     <h4>Redes Sociales</h4>
                                     <div class="buttons">
-                                    <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="images/facebook.png" /></a>
+                                    <a class="facebook" href="https://www.facebook.com/Coolticocom?fref=ts"  target="_blank"><img src="../images/facebook.png" /></a>
                                 
                                     </div>
                             </div>

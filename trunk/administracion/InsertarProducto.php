@@ -73,7 +73,7 @@
    
 
                 <div id="izquierdo">
-                    <img src="images/add.png" alt="image" style="width:70px;height:70px">
+                    <img src="../images/add.png" alt="image" style="width:70px;height:70px">
                      <strong><u> Insertar Producto </u></strong>
                     <table>
                         <tr >
@@ -93,7 +93,7 @@
                       
                         <tr>
                             <td><label>Descripción:</label></td>
-                            <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea>
+                           <td> <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea></td>
                         </tr>
                        
                         
@@ -125,7 +125,7 @@
                     </table>
                     
                     <div >
-                        <input type="button" name="crearProd"  value="Crear" id="crearProd" class="input">
+                      <td>  <input type="button" name="crearProd"  value="Crear" id="crearProd" class="input"></td>
                     </div>
                 </div>
 
