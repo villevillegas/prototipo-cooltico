@@ -1,5 +1,8 @@
 function prepara_eventos(){
-    
+//    $('#btn-agregar-producto').on('click',function (nombre){
+//        //alert("Activando Modal" +  nombre);
+//        $("#modal-agregar-producto").modal('show');
+//    });
 //  $.ajax({
 //                type: 'POST',
 //                url: 'productos.json',

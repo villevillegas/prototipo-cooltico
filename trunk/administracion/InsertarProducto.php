@@ -35,7 +35,7 @@
 				<div class="col-md-12 column">
 					<ul class="nav nav-tabs">
                                             <li>
-                                            </div> <button onClick="window.location.href='http://localhost:8080/prototipo-cooltico/administracion/admin.php'" type="submit" class="btn btn-default">Regresar</button>
+                                                </div> <a href="admin.php"><button type="submit" class="btn btn-default">Regresar</button></a>
                                             </li>
                                             </ul>
 				</div>
