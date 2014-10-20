@@ -4,12 +4,18 @@
  #email { margin-left: 57px; }
  #telefono{ margin-left: 37px; }
  #comentarios { margin-left: 10px; }
- #enviar { 
+ 
+ /*#enviar { 
  margin-left: 600px;
  width: 100px;
  height: 50px;
- }
+ }*/
 
+ #enviar { 
+ width: 80px;
+ height: 40px;
+ }
+ 
 .buttons { margin-top: 14px; }
         
 .buttons a {
