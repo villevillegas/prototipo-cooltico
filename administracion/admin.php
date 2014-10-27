@@ -37,8 +37,48 @@ require('./adm-php/tablaProducto.php');
         <link rel="stylesheet" type="text/css" href="../css/InsertProduct.css" />
     </head>
     <body>
+
+<!--        <div class="modal fade" id="modal-login-admin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="max-width: 1000px">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Agregar Role</h4>
+                    </div>
+                    <div class="modal-body" style="max-width: 1000px">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">File input</label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">Example block-level help text here.</p>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Check me out
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+
         <div id="contenedor" class="container">
-            <div id="head" class="row">sss</div>
+            <div id="head" class="row"></div>
             <div id="contenido" class="row">
                 <div class="col-md-12">
 
@@ -70,56 +110,14 @@ require('./adm-php/tablaProducto.php');
                                         <div class="row">
 
                                             <a href="InsertarProducto.php"><button id="btn-agregar-producto"  class="col-md-2 btn btn-sm btn-info">Agregar Producto <span class="glyphicon glyphicon-plus"></span></button></a>
-                                            <div class="modal fade bs-example-modal-lg" id="modal-agregar-producto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-lg">
-                                                    <div class="modal-content" style="max-width: 1000px">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                            <h4 class="modal-title" id="myModalLabel">Agregar Role</h4>
-                                                        </div>
-                                                        <div class="modal-body" style="max-width: 1000px">
-                                                            <div id="izquierdo">
-                                                                <img src="images/add.png" alt="image" style="width:70px;height:70px">
-                                                                <strong><u> Insertar Producto </u></strong>
-                                                                <table>
-                                                                    <tr >
-                                                                        <td><label >Nombre:</label></td>
-                                                                        <td><input name="nombre" type="text" maxlength="35" size="25"></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td><label>Código:</label></td>
-                                                                        <td><input name="códigoo" type="text" maxlength="35" size="25"></td>
-                                                                    </tr>
 
-                                                                    <tr>
-                                                                        <td><label>Cantidad del producto:</label></td>
-                                                                        <td><input name="cantProducto" type="text" maxlength="35" size="25"></td>
-
-                                                                    </tr>
-
-                                                                    <tr>
-                                                                        <td><label>Descripción:</label></td>
-                                                                    <textarea name="descripción" cols="45" rows="7" id="descripción" ></textarea>
-                                                                    </tr>
-
-
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                                                            <button type="button" class="btn btn-primary">Guardar</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="row">
                                             <?php
                                             $url = "adm-js/productos.json";
 
                                             $contador = 0;
-                                            $encabezado = Array("#", "Nombre", "Codigo", "Precio", "Marca", "Descripción");
+                                            $encabezado = Array("#", "Nombre", "Codigo", "Precio", "Marca", "Cantidad", "Descripción");
                                             $filas = Array();
                                             $json = json_decode(file_get_contents($url), true);
                                             $tbls = $json["productos"];
@@ -132,6 +130,7 @@ require('./adm-php/tablaProducto.php');
                                                 array_push($filas, $t["codigo"]);
                                                 array_push($filas, $t["precio"]);
                                                 array_push($filas, $t["marca"]);
+                                                array_push($filas, $t["cantidad"]);
                                                 array_push($filas, $t["descripcion"]);
                                             }
 
