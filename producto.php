@@ -192,39 +192,36 @@
 	
 	<div class="row clearfix">
 		<div class="col-md-2 column">
-                    <img alt="140x140" src="http://lorempixel.com/140/140/" border="0" height="100" width="100"><hr/>
-                    <img alt="140x140" src="http://lorempixel.com/140/140/" border="0" height="100" width="100"><hr/>
-                    <img alt="140x140" src="http://lorempixel.com/140/140/" border="0" height="100" width="100"><hr/>
-                    <img alt="140x140" src="http://lorempixel.com/140/140/" border="0" height="100" width="100"><hr/>
+                    <img alt="140x140" src="upload/arete1.png" border="0" height="100" width="100"><hr/>
+                    <img alt="140x140" src="upload/arete1.png" border="0" height="100" width="100"><hr/>
+                    <img alt="140x140" src="upload/arete1.png" border="0" height="100" width="100"><hr/>
+                    <img alt="140x140" src="upload/arete1.png" border="0" height="100" width="100"><hr/>
                   
 								
 			
 		</div>
 		<div class="col-md-6 column">
-			<img alt="140x140" src="http://lorempixel.com/140/140/" border="0" height="400" width="400">
+			<img alt="140x140" src="upload/arete1.png" border="0" height="400" width="400">
                         <hr/>
 		</div>
 		<div class="col-md-4 column" >
                         
 			<p align="letf">
                             
-				Exclusive 8.9" HDX display—With 30% more pixels than iPad Air's Retina display, Amazon's exclusive HDX display (2560x1600) features exceptional pixel density (over 4 million pixels, 339 ppi) for vivid, lifelike images
-                                Incredibly light design—Weighing just 13.2 ounces, Fire HDX 8.9 is 20% lighter than iPad Air
-                                Ultrafast 2.5 GHz quad-core processor—70% faster graphics performance with 2GB of RAM and Adreno 420 GPU for quicker gaming and smoother video
-                                Rich, multi-dimensional audio—Twice as loud as iPad Air, with crisp, clear sound and no distortion. Plus, the first tablet with Dolby Atmos for a new headphone experience
-                                Firefly and Mayday—Quickly identify and take action on over 100 million items with Firefly. Get free, live video support with an Amazon expert, 24x7, 365 days a year with Mayday
-                                8MP rear-facing camera with LED flash for high-resolution photos and 1080p HD video, plus a front-facing 720p HD camera for video calls and more. Free unlimited storage in Cloud Drive for photos taken with Fire devices
-                                Best selection of digital content—Enjoy over 33 million movies, TV shows, songs, books, Android apps and games—including Facebook, Netflix, Minecraft and more
+				Arete de Oro con gema de fantasía especial para vestir elegantemente
                                
 			</p>
+                        <button> Agregar al carrito</button>
 		</div>
                 <div class="col-md-5 column" >
                         
 			<p align="center">
                             
-				Precio &cent;
-                               
+                            Precio &cent : 25000<br>
+                            Cantidad: 10
+                                
 			</p>
+                        
 		</div>
 	</div>
 	<div class="row clearfix">
