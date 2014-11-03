@@ -14,7 +14,6 @@
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-      
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -27,11 +26,19 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="img/favicon.png">
-    <link href="http://ir.ebaystatic.com/rs/v/qpjvxkmmvi1xzbe4prueap0vua4.css" 
+  
+  <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+  
+  <link href="http://ir.ebaystatic.com/rs/v/qpjvxkmmvi1xzbe4prueap0vua4.css" 
   type="text/css" rel="stylesheet" slotId="gh-css">
-  <script type="text/javascript" src="js/library/jquery.min.js"></script>
+
+   <script type="text/javascript" src="js/library/jquery.min.js"></script>
   <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/library/scripts.js"></script>
+        
 </head>
 
 <body>
@@ -54,17 +61,20 @@
 							<a href="#">No se que mas</a>
 						</li>-->
 						<li class="dropdown pull-right">
+                                                    
 							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sesión<strong class="caret"></strong></a>
 							
                                                          <ul class="dropdown-menu">
+                                                             
 								<li>
-									<a href="#">Iniciar Sesión</a>    
+								     <a href="#">Iniciar Sesión</a>    
 								</li>
+                                                                
+                                                                
 								<li>
                                                                     <a href="formularioRegistro.php">Registrarse</a>
 								</li>
-                                                                
-                                                          
+                                                             
 <!--								<li>
 									<a href="#">Something else here</a>
 								</li>-->
@@ -140,10 +150,25 @@
                                     
 					<ul class="nav navbar-nav navbar-right">
 						
-						 <li id=gh-cart class="" ><a href=""
+						<li class="dropdown">
+                                                    
+							 
+				
+				
+                                                        <li id=gh-cart class="" ><a href=""
                                                         _sp=m570.l2633 title="Tu carro de compras" class="" >
                                                         <i id=gh-cart-i class=gh-sprRetina></i></a>
-                                                 </li>
+                                                        </li>
+                                                        
+                                                         
+                                                 
+                                                        <ul class="dropdown-menu">
+								<li>
+									<a href="#">....</a>
+								</li>
+							
+							</ul>
+						</li>
 					</ul>
 				</div>
 				
@@ -155,7 +180,7 @@
 	
 	<div class="row clearfix">
             
-
+          
 		<div class="col-md-3 column">
 			<div class="panel-group" id="panel-307984">
 			<br/>
@@ -163,26 +188,26 @@
 				<div class="panel panel-default">
 				     
 					<div class="panel-heading">
-						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-307984" href="#panel-element-34565">Joyeria</a>
+						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-307984" href="#panel-element-34565">Joyería</a>
 					</div>
 					
 					<div id="panel-element-34565" class="panel-collapse collapse">
 						<div class="panel-body">
 							<li>
-                                                            <a href="producto.php">jewelry 1</a>
+                                                            <a href="producto.php">Anillos</a>
                                                         </li>
                                                         <li>
-                                                              <a href="producto.php">jewelry 2</a>
+                                                              <a href="producto.php">Pulseras</a>
 
                                                         </li>
                                                          <li>
-                                                            <a href="producto.php">jewelry 3</a>
+                                                            <a href="producto.php">Collares</a>
                                                         </li>
                                                          <li>
-                                                             <a href="producto.php">jewelry 4</a>
+                                                             <a href="producto.php">Aretes</a>
                                                         </li> 
                                                         <li>
-                                                             <a href="producto.php">jewelry 5</a>
+                                                             <a href="producto.php">Relojes</a>
                                                         </li>
                                                                 
                                                      
@@ -198,21 +223,16 @@
 					<div id="panel-element-621917" class="panel-collapse collapse">
 						<div class="panel-body">
 							<li>
-                                                            <a href="producto1.php">electronic products 1</a>
+                                                            <a href="producto1.php">Accesorios para Celulares</a>
                                                         </li>
                                                         <li>
-                                                              <a href="producto1.php">electronic products 2</a>
+                                                              <a href="producto1.php">Accesorios para computadoras</a>
 
                                                         </li>
                                                          <li>
-                                                            <a href="producto1.php">electronic products 3</a>
+                                                            <a href="producto1.php">Cargadores</a>
                                                         </li>
-                                                         <li>
-                                                             <a href="producto1.php">electronic products 4</a>
-                                                        </li> 
-                                                        <li>
-                                                             <a href="producto1.php">electronic products 5</a>
-                                                        </li>
+                                                         
 						</div>
 					</div>
 				</div>
@@ -224,47 +244,30 @@
 					<div id="panel-element-621918" class="panel-collapse collapse">
 						<div class="panel-body">
 							<li>
-                                                            <a href="producto2.php">home products 1</a>
+                                                            <a href="producto2.php">Relojes</a>
                                                         </li>
                                                         <li>
-                                                              <a href="producto2.php">home products 2</a>
+                                                              <a href="producto2.php">Tazas</a>
 
                                                         </li>
                                                          <li>
-                                                            <a href="producto2.php">home products 3</a>
+                                                            <a href="producto2.php">Platos</a>
                                                         </li>
-                                                         <li>
-                                                             <a href="producto2.php">home products 4</a>
-                                                        </li> 
-                                                        <li>
-                                                             <a href="producto2.php">home products 5</a>
-                                                        </li>
+                                                         
 						</div>
 					</div>
 				</div>
 				
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-307984" href="#panel-element-621919">Ropa</a>
+						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-307984" href="#panel-element-621919">Calzado</a>
 					</div>
 					<div id="panel-element-621919" class="panel-collapse collapse">
 						<div class="panel-body">
 							<li>
-                                                            <a href="producto4.php">dress 1</a>
+                                                            <a href="producto4.php">Tennis</a>
                                                         </li>
-                                                        <li>
-                                                              <a href="producto4.php">dress 2</a>
-
-                                                        </li>
-                                                         <li>
-                                                            <a href="producto4.php">dress 3</a>
-                                                        </li>
-                                                         <li>
-                                                             <a href="producto4.php">dress 4</a>
-                                                        </li> 
-                                                        <li>
-                                                             <a href="producto4.php">dress 5</a>
-                                                        </li>
+                                                        
 						</div>
 					</div>
 				</div>
@@ -276,21 +279,19 @@
 					<div id="panel-element-621920" class="panel-collapse collapse">
 						<div class="panel-body">
 							<li>
-                                                            <a href="producto3.php">glasses 1</a>
+                                                            <a href="producto3.php">Anteojos de Sol</a>
                                                         </li>
                                                         <li>
-                                                              <a href="producto3.php">glasses 2</a>
+                                                              <a href="producto3.php">Anteojos Deportivos</a>
 
                                                         </li>
                                                          <li>
-                                                            <a href="producto3.php">glasses 3</a>
+                                                            <a href="producto3.php">Anteojos para hombre</a>
                                                         </li>
                                                          <li>
-                                                             <a href="producto3.php">glasses 4</a>
+                                                             <a href="producto3.php">Anteojos para mujer</a>
                                                         </li> 
-                                                        <li>
-                                                             <a href="producto3.php">glasses 5</a>
-                                                        </li>
+                                                       
 						</div>
 					</div>
 				</div>
@@ -334,27 +335,27 @@
 			<br/>
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/arete1.png" style="max-height: 150px">
 					<h4>
-						Object Name
+						Arete Plata
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/arete2.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Arete de osos
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/arete4.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Aretes de plata fina
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/collarOSo.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Collar Oso
 					</h4>
 				</div>
 			</div>
@@ -363,57 +364,27 @@
 			
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/anillo1.png" style="max-height: 150px">
 					<h4>
-						Object Name
+						Anillo de oro
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/anillo2.png" style="max-height: 150px">
 					<h4>
-						Object Name
+						Anillo de plata
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/collar1.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Collar
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/aretes2.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
-					</h4>
-				</div>
-			</div>
-			<br>
-			<br>
-			
-			
-			<div class="row clearfix">
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
+						Aretes Tous
 					</h4>
 				</div>
 			</div>
@@ -423,61 +394,31 @@
 			
 			<div class="row clearfix">
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/relojCafe.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Reloj Café
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/relojblanco.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Reloj Blanco
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/arete4.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Aretes de plata fina
 					</h4>
 				</div>
 				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
+                                    <a href="producto.php"><img alt="140x140" src="upload/collarOSo.jpg" style="max-height: 150px">
 					<h4>
-						Object Name
+						Collar Oso
 					</h4>
 				</div>
 			</div>
-			<br>
-			<br>
 			
-			
-			<div class="row clearfix">
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-			
-			                <a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-				<div class="col-md-3 column">
-					<a href="producto5.php"><img alt="140x140" src="http://lorempixel.com/140/140/">
-					<h4>
-						Object Name
-					</h4>
-				</div>
-			</div>
 			<br>
 			<br>
 			
@@ -529,5 +470,3 @@
 </div>
 </body>
 </html>
-
-

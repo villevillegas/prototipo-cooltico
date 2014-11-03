@@ -151,7 +151,7 @@ require('./adm-php/tablaProducto.php');
 
                                         <h1>CATEGORIAS</h1>
                                         <div class="row">
-                                            <button class="col-md-2 btn btn-sm btn-info">Agregar Categoría<span class="glyphicon glyphicon-plus"></span></button>
+                                            <a href="InsertarCategoria.php"><button class="col-md-2 btn btn-sm btn-info">Agregar Categoría<span class="glyphicon glyphicon-plus"></span></button></a>
 
                                         </div>
                                         <div class="row">
