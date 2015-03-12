@@ -24,25 +24,26 @@
         
     </head>
     <body>
+        
+        
         <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 		
                         <div class="row clearfix" style="background-color: #ffffff">
                                 <div class="col-md-12 column" id="header">
-                                    
-                                  
-                                   
                                 </div>
                         <hr></hr>
+                        
                         </div>
                     
-                    <div class="row clearfix">
-                            <div class="col-md-5 column">
-                            </div>
-                            <div class="col-md-5 column">
-                                    
-								
+                        <div class="row clearfix">
+                            
+                                <div class="col-md-5 column">
+                                </div>
+                                <div class="col-md-5 column">
+
+
                                 <script  language="javascript">
                                 function myFunction() {
                                     document.getElementById("ventana_flotante1").style.visibility= "visible";
@@ -50,17 +51,15 @@
                                 }
                                 </script>
 
-								
+
                                 <!--la parte de login-->
                                 <div id="ventana_flotante1" class="ventana_flotante">
-
-
                                     <label for="correo" >Correo:</label>
                                     <input type="text" name="correoLogin"  size="15" value="" id="correoLogin" class="input"><br><br>
                                     <label for="contraseña">Contraseña:</label>
                                     <input type="password" name="contraseñaLogin"  size="10" value="" id="contraseñaLogin" class="input"><br><br>
-                                    
-                                    <div >
+
+                                    <div>
                                         <input onclick="myFunction1()" type="button" name="login"  value="Entrar" id="login" class="input"><br/><br/>
                                         <script  language="javascript">
                                         function myFunction1() {
@@ -69,19 +68,17 @@
                                         }
                                         </script>
                                     </div>
-                                    <div >
-                                        
+                                    <div>
                                         <input onClick="window.location.href='formularioRegistro.php'" type="button" name="registro"  value="Registrarse" id="registro" class="input"><br/><br/>
                                     </div>
                                      <div >
-                                        
-                                         <input onclick="myFunction1()" type="button" name="login"  value="cancelar" id="cancelar" class="input"><br/><br/>
-                                    </div>
-                                 </div>
-                            </div>
-                            <div class="col-md-5 column">
-                            </div>
-                    </div>
+                                        <input onclick="myFunction1()" type="button" name="login"  value="cancelar" id="cancelar" class="input"><br/><br/>
+                                     </div>
+                                </div>
+                                </div>
+                                <div class="col-md-5 column">
+                               </div>
+                        </div>
                     
                     
                     
@@ -102,17 +99,18 @@
 						<div class="form-group">
 							<input type="text" class="form-control">
 						</div> <button type="submit" class="btn btn-default">Buscar</button>
-					</form>
+                                                </form>
 
- <div class="ec-stars-wrapper">
-                                               
-	<a href="#" data-value="1" title="Calificar con 1 estrellas">&#9733;</a>
-	<a href="#" data-value="2" title="Calificar con 2 estrellas">&#9733;</a>
-	<a href="#" data-value="3" title="Calificar con 3 estrellas">&#9733;</a>
-	<a href="#" data-value="4" title="Calificar con 4 estrellas">&#9733;</a>
-	<a href="#" data-value="5" title="Calificar con 5 estrellas">&#9733;</a>
-</div>
-<noscript>Necesitas tener habilitado javascript para poder votar</noscript>
+                        <div class="ec-stars-wrapper">
+
+                               <a href="#" data-value="1" title="Calificar con 1 estrellas">&#9733;</a>
+                               <a href="#" data-value="2" title="Calificar con 2 estrellas">&#9733;</a>
+                               <a href="#" data-value="3" title="Calificar con 3 estrellas">&#9733;</a>
+                               <a href="#" data-value="4" title="Calificar con 4 estrellas">&#9733;</a>
+                               <a href="#" data-value="5" title="Calificar con 5 estrellas">&#9733;</a>
+                       </div>
+
+                       <noscript>Necesitas tener habilitado javascript para poder votar</noscript>
 
 						<li class="dropdown pull-right">
 							
@@ -138,6 +136,7 @@
 			</div>
 		</div>
 	</div>
+            
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="carousel slide" id="carousel-727762" style="width: 100%; margin: 0 auto">
@@ -189,6 +188,8 @@
 			</div>
 		</div>
 	</div><hr></hr>
+        
+        
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
