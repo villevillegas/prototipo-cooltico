@@ -1,0 +1,1 @@
+Corresponde al proyecto de cooltico.com correspondiente a inge 2
